@@ -1,0 +1,5 @@
+.featured-bg {
+    background-image: url('/blog/img/featured.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
