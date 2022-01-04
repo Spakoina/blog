@@ -28,6 +28,9 @@ switch ($request) {
     case 'libri' :
         require( __DIR__ . '\views\libri.php');
         break;
+    case 'cucina' :
+        require( __DIR__ . '\views\cucina.php');
+        break;
     case 'article' :
         if (array_key_exists('article', $_GET)) {
             require 'db-connection.php';
