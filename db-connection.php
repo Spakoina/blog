@@ -3,7 +3,7 @@
 require_once('./classes/articles.php');
 
 function db_connect() {
-    $servername = "127.0.0.1:8886";
+    $servername = "127.0.0.1:3306";
     $username = "blog";
     $password = "blogPhpConn2022";
 
