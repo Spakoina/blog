@@ -1,4 +1,5 @@
 <?php
+require_once './utilities/date-functions.php';
 function url($base_url){
     return sprintf(
       "%s://%s%s",
@@ -11,6 +12,7 @@ function url($base_url){
   $base_url = '/blog';
   $base_complete_url = url($base_url);
   $request = '';
+  $show_banner=false;
   if (array_key_exists('page', $_GET)) {
     $request = $_GET['page'];
   }
@@ -23,6 +25,7 @@ switch ($request) {
     case '' :
         require 'db-connection.php';
         $articles = fetch_articles();
+        $show_banner=true;
         require( __DIR__ . '\views\index.php');
         break;
     case 'libri' :

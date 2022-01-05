@@ -1,5 +1,13 @@
 .featured-bg {
-    background-image: url('/blog/img/featured.jpg');
+    background-image: url('/blog/img/paper.PNG');
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.font-luxurious {
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.navbar-nav {
+    font-size: 1.3rem;
 }
