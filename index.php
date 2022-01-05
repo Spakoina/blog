@@ -1,5 +1,6 @@
 <?php
 
+require_once './utilities/Autoloader.php';
 require_once './utilities/date-functions.php';
 
 function url($base_url) {
@@ -27,10 +28,16 @@ ob_start();
 switch ($request) {
     case '/' :
     case '' :
-        require 'db-connection.php';
-        $articles = fetch_articles();
+        $articlesRepo = new ArticlesRepository();
+        $articles = $articlesRepo->fetch_article_fromid($_GET['article']);
         $show_banner = true;
         require( __DIR__ . '/views/home.php');
+        break;
+    case 'search' :
+        $controller = new Search();
+        $query = array_key_exists('query', $_GET) ? $_GET['query'] : '';
+        $controller->search($query);
+        //require( __DIR__ . '/views/libri.php');
         break;
     case 'libri' :
         require( __DIR__ . '/views/libri.php');
@@ -40,9 +47,8 @@ switch ($request) {
         break;
     case 'article' :
         if (array_key_exists('article', $_GET)) {
-            require 'db-connection.php';
-            $article = fetch_article($_GET['article']);
-            //print_r($article);exit;
+            $articlesRepo = new ArticlesRepository();
+            $article = $articlesRepo->fetch_article_fromid($_GET['article']);
             require( __DIR__ . '/views/article.php');
         }
         break;

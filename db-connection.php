@@ -28,15 +28,15 @@ function fetch_article($id) {
     $param['id'] = $id;
     $stmt = $pdo->prepare('SELECT * FROM articles WHERE article_url_cd = :id');
     $stmt->execute($param);
-    $users = $stmt->fetchAll(PDO::FETCH_CLASS, 'Articles');
+    $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Articles');
     db_disconnect($pdo);
-    return $users;
+    return $articles;
 }
 
 function fetch_articles() {
     $pdo = db_connect();
-    $users = $pdo->query('SELECT * FROM articles')->fetchAll(PDO::FETCH_CLASS, 'Articles');
+    $articles = $pdo->query('SELECT * FROM articles')->fetchAll(PDO::FETCH_CLASS, 'Articles');
     db_disconnect($pdo);
-    return $users;
+    return $articles;
 }
 ?>

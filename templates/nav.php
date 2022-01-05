@@ -16,8 +16,8 @@
                     <a class="nav-link" href="<?php echo $base_complete_url; ?>/cucina">Cucina</a>
                 </li>
             </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <form class="d-flex" action="<?php echo $base_complete_url; ?>/search" method="get" >
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="query" name="query" <?php echo (array_key_exists('query', $_GET) ? 'value="' . $_GET['query'] . '"' : ''); ?>>
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
         </div>
