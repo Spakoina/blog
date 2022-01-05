@@ -16,8 +16,10 @@ foreach ($articles as $key => $value) {
     ?>
     <article class="blog-post row">
         <div class="col-3">
+            <?php if (strlen($value->photo) > 0) { ?>
             <img class="img-fluid" 
                  src="<?php echo $base_complete_url; ?>/img/imgarticles/<?php echo $value->photo; ?>">
+            <?php } ?>
         </div>
         <div class="col-9">
             <h2 class="blog-post-title"><?php echo $value->title; ?></h2>

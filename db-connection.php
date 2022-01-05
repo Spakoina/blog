@@ -3,7 +3,7 @@
 require_once('./classes/articles.php');
 
 function db_connect() {
-    $servername = "blog.cdezpayldbi9.eu-west-3.rds.amazonaws.com";
+    $servername = "127.0.0.1:8886";
     $username = "blog";
     $password = "blogPhpConn2022";
 

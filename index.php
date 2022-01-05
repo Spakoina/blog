@@ -26,7 +26,7 @@ switch ($request) {
         require 'db-connection.php';
         $articles = fetch_articles();
         $show_banner=true;
-        require( __DIR__ . '\views\index.php');
+        require( __DIR__ . '\views\home.php');
         break;
     case 'libri' :
         require( __DIR__ . '\views\libri.php');
