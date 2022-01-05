@@ -37,7 +37,7 @@ switch ($request) {
     case 'search' :
         $controller = new Search();
         $query = array_key_exists('query', $_GET) ? $_GET['query'] : '';
-        $controller->search($query);
+        $controller->search_articles($query);
         break;
     case 'libri' :
         require( __DIR__ . '/views/libri.php');
