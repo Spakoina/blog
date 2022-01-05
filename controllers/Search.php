@@ -8,7 +8,7 @@ class Search {
             return;
         } else {
             $articlesRepo = new ArticlesRepository();
-            $articles = $articlesRepo->fetch_article_fromid($query);
+            $articles = $articlesRepo->search_article($query);
             require_once 'views/search.php';
         }
     }

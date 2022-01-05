@@ -6,15 +6,15 @@ class ArticlesRepository {
         require_once 'db-connection.php';
     }
 
-    public function find_articles($id) {
+    public function fetch_article_fromid($id) {
         return fetch_article($id);
     }
 
-    public function fetch_article() {
+    public function fetch_articles() {
         return fetch_articles();
     }
 
-    public function fetch_article_fromid($query) {
+    public function search_article($query) {
         $pdo = db_connect();
         $param['query'] = $query;
         $stmt = $pdo->prepare("SELECT * FROM articles WHERE LOWER(title) like LOWER(CONCAT('%', :query, '%')) or LOWER(description) like LOWER(CONCAT('%', :query, '%'))");

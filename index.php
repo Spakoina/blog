@@ -16,6 +16,7 @@ $currentPath = $_SERVER['PHP_SELF'];
 $pathInfo = pathinfo($currentPath);
 $base_url = $pathInfo['dirname'];
 $base_complete_url = url($base_url == '/' ? '' : $base_url);
+$GLOBALS['base_complete_url'] = $base_complete_url;
 $request = '';
 $show_banner = false;
 if (array_key_exists('page', $_GET)) {
@@ -29,7 +30,7 @@ switch ($request) {
     case '/' :
     case '' :
         $articlesRepo = new ArticlesRepository();
-        $articles = $articlesRepo->fetch_article_fromid($_GET['article']);
+        $articles = $articlesRepo->fetch_articles();
         $show_banner = true;
         require( __DIR__ . '/views/home.php');
         break;
@@ -37,7 +38,6 @@ switch ($request) {
         $controller = new Search();
         $query = array_key_exists('query', $_GET) ? $_GET['query'] : '';
         $controller->search($query);
-        //require( __DIR__ . '/views/libri.php');
         break;
     case 'libri' :
         require( __DIR__ . '/views/libri.php');

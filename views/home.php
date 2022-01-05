@@ -18,7 +18,7 @@ foreach ($articles as $key => $value) {
         <div class="col-3">
             <?php if (strlen($value->photo) > 0) { ?>
             <img class="img-fluid" 
-                 src="<?php echo $base_complete_url; ?>/img/imgarticles/<?php echo $value->photo; ?>">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/<?php echo $value->photo; ?>">
             <?php } ?>
         </div>
         <div class="col-9">
@@ -27,7 +27,7 @@ foreach ($articles as $key => $value) {
 
             <p><?php echo $value->description; ?></p>
 
-            <a href="<?php echo $base_complete_url . '/article/' . $value->article_url_cd; ?>" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Read more</a>
+            <a href="<?php echo $GLOBALS['base_complete_url'] . '/article/' . $value->article_url_cd; ?>" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Read more</a>
         </div>
     </article>
     <hr>
