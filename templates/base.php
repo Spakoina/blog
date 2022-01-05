@@ -31,6 +31,10 @@
 
     <!-- Custom styles for this template -->
     <link href="<?php echo $base_complete_url; ?>/css/blog.css" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet"> 
 </head>
 
 <body>
@@ -42,14 +46,16 @@
     </div>
 
     <main class="container">
-        <div class="p-4 p-md-5 mb-4 rounded bg-dark featured-bg">
-            <div class="col-md-6 px-0">
-                <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
-                <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and
-                    efficiently about what’s most interesting in this post’s contents.</p>
-                <p class="lead mb-0"><a href="#" class="fw-bold">Continue reading...</a></p>
-            </div>
-        </div>
+         <?php
+                   if ($show_banner==true){
+                ?>
+        
+            <img class="img-fluid mx-auto d-none d-md-block  "  src="<?php echo $base_complete_url; ?>/img/paper.png">
+        
+        
+         <?php
+                   }
+                ?>
 
         
 
