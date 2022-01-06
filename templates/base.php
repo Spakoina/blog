@@ -10,7 +10,7 @@
     <title>Blog Chiara</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="<?php echo $base_complete_url; ?>/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $GLOBALS['base_complete_url']; ?>/css/bootstrap/bootstrap.min.css" rel="stylesheet">
 
     <style>
         .bd-placeholder-img {
@@ -30,7 +30,7 @@
 
 
     <!-- Custom styles for this template -->
-    <link href="<?php echo $base_complete_url; ?>/css/blog.css" rel="stylesheet">
+    <link href="<?php echo $GLOBALS['base_complete_url']; ?>/css/blog.css" rel="stylesheet">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,7 +50,7 @@
                    if ($show_banner==true){
                 ?>
         
-            <img class="img-fluid mx-auto d-none d-md-block  "  src="<?php echo $base_complete_url; ?>/img/paper.png">
+            <img class="img-fluid mx-auto d-none d-md-block  "  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/paper.png">
         
         
          <?php
@@ -83,7 +83,7 @@
         ?>
     </footer>
 
-    <script src="<?php echo $base_complete_url; ?>/js/bootstrap/bootstrap.min.js"></script>
+    <script src="<?php echo $GLOBALS['base_complete_url']; ?>/js/bootstrap/bootstrap.min.js"></script>
 
 </body>
 

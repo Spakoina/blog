@@ -1,6 +1,6 @@
 <?php
 function autoloadModel($className) {
-    $filename = "models/" . $className . ".php";
+    $filename = "entities/" . $className . ".php";
     if (is_readable($filename)) {
         require $filename;
     }

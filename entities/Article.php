@@ -1,7 +1,7 @@
 <?php
 
-class Articles {
-    private $article_url_cd;
+class Article {
+    private $id_article_url_cd;
     private $title;
     private $description;
     private $date;

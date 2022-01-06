@@ -4,7 +4,7 @@
         <div class="col">
            <img class="img-fluid" 
                 alt="Copertina libro Carafa" 
-                src="<?php echo $base_complete_url; ?>/img/imgarticles/Carafa.jpg">
+                src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/Carafa.jpg">
         </div>
         <div class="col">
            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 

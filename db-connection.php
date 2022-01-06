@@ -1,7 +1,5 @@
 <?php
 
-require_once('./classes/articles.php');
-
 function db_connect() {
     $servername = "127.0.0.1:3306";
     $username = "blog";
@@ -23,20 +21,4 @@ function db_disconnect($conn) {
     $conn = null;
 }
 
-function fetch_article($id) {
-    $pdo = db_connect();
-    $param['id'] = $id;
-    $stmt = $pdo->prepare('SELECT * FROM articles WHERE article_url_cd = :id');
-    $stmt->execute($param);
-    $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Articles');
-    db_disconnect($pdo);
-    return $articles;
-}
-
-function fetch_articles() {
-    $pdo = db_connect();
-    $articles = $pdo->query('SELECT * FROM articles')->fetchAll(PDO::FETCH_CLASS, 'Articles');
-    db_disconnect($pdo);
-    return $articles;
-}
 ?>

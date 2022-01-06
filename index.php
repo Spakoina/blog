@@ -22,20 +22,23 @@ $show_banner = false;
 if (array_key_exists('page', $_GET)) {
     $request = $_GET['page'];
 }
+$param = explode('/', $request);
+$controller = $param[0];
+$action = count($param) > 1 ? $param[1] : null;
 
 //echo $request;exit;
 
 ob_start();
-switch ($request) {
+switch ($controller) {
     case '/' :
     case '' :
-        $articlesRepo = new ArticlesRepository();
+        $articlesRepo = new ArticleRepository();
         $articles = $articlesRepo->fetch_articles();
         $show_banner = true;
         require( __DIR__ . '/views/home.php');
         break;
     case 'search' :
-        $controller = new Search();
+        $controller = new SearchController();
         $query = array_key_exists('query', $_GET) ? $_GET['query'] : '';
         $controller->search_articles($query);
         break;
@@ -45,12 +48,14 @@ switch ($request) {
     case 'cucina' :
         require( __DIR__ . '/views/cucina.php');
         break;
+    case 'categoria' :
+        $controller = new CategoryController();
+        $controller->category_page($action);
+        break;
     case 'article' :
-        if (array_key_exists('article', $_GET)) {
-            $articlesRepo = new ArticlesRepository();
-            $article = $articlesRepo->fetch_article_fromid($_GET['article']);
-            require( __DIR__ . '/views/article.php');
-        }
+        $articlesRepo = new ArticleRepository();
+        $article = $articlesRepo->fetch_article_fromid($action);
+        require( __DIR__ . '/views/article.php');
         break;
     default:
         http_response_code(404);

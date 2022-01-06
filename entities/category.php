@@ -1,11 +1,10 @@
 <?php
 
-class Articles {
-    private $article_url_cd;
-    private $title;
-    private $description;
-    private $date;
-    private $photo;
+class Category {
+    private $id_category_url_cd;
+    private $category_label;
+    private $category_ds;
+    private $category_img;
 
     public function __get($property) {
         if (property_exists($this, $property)) {
