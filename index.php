@@ -17,6 +17,7 @@ $pathInfo = pathinfo($currentPath);
 $base_url = $pathInfo['dirname'];
 $base_complete_url = url($base_url == '/' ? '' : $base_url);
 $GLOBALS['base_complete_url'] = $base_complete_url;
+$GLOBALS['current_url'] = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 $request = '';
 $show_banner = false;
 if (array_key_exists('page', $_GET)) {

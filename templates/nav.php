@@ -1,3 +1,28 @@
+<?php
+// Preparing menù elements
+$menu[] = array();
+
+$homeurl = $GLOBALS['base_complete_url'] . '/';
+$menu[0] = array(
+    "title" => "Home",
+    "link" => $homeurl,
+    "active" => ($GLOBALS['current_url'] == $homeurl ? true : false)
+);
+
+$catRepo = new CategoryRepository();
+$categories = $catRepo->fetch_all();
+if (sizeof($categories) > 0) {
+    foreach ($categories as $key => $cat) {
+        $caturl = $GLOBALS['base_complete_url'] . '/categoria/' . $cat->id_category_url_cd;
+        $menu[count($menu)] = array(
+            "title" => $cat->category_label,
+            "link" => $caturl,
+            "active" => ($GLOBALS['current_url'] == $caturl ? true : false)
+        );
+    }
+}
+?>
+
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid">
         <a class="navbar-brand" href="<?php echo $GLOBALS['base_complete_url']; ?>/"><img class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/logo.png"></a>
@@ -6,22 +31,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item mx-1">
-                    <a class="nav-link active" aria-current="page" href="<?php echo $GLOBALS['base_complete_url']; ?>/">Home</a>
-                </li>
                 <?php
-                $catRepo = new CategoryRepository();
-                $categories = $catRepo->fetch_all();
-                if (sizeof($categories) > 0) {
-                    foreach ($categories as $key => $cat) {
-                        ?>
-                        <li class="nav-item mx-1">
-                            <a class="nav-link" href="<?php echo $GLOBALS['base_complete_url'] . '/categoria/' . $cat->id_category_url_cd; ?>">
-                                <?php echo $cat->category_label; ?>
-                            </a>
-                        </li>
-                        <?php
-                    }
+                foreach ($menu as $key => $ent) {
+                    ?>
+
+                    <li class="nav-item mx-1">
+                        <a class="nav-link <?php echo $ent['active'] == true ? 'active' : ''; ?>" 
+                           href="<?php echo $ent['link']; ?>">
+                               <?php echo $ent['title']; ?>
+                        </a>
+                    </li>
+                    <?php
                 }
                 ?>
             </ul>

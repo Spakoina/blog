@@ -13,6 +13,8 @@ class CategoryController {
         } else {
             $catRepo = new CategoryRepository();
             $category = $catRepo->fetch_by_id($id);
+            $artRepo = new ArticleRepository();
+            $articles = $artRepo->fetch_by_category($id);
             if (count($category) > 0) {
                 require_once 'views/category.php';
             } else {

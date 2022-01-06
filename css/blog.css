@@ -11,3 +11,19 @@
 .navbar-nav {
     font-size: 1.3rem;
 }
+
+.main-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.read-more-link {
+    text-decoration: none;
+    color: #26734d;
+}
+
+.read-more-link:hover {
+    color: #00b359;
+    text-decoration: underline;
+}

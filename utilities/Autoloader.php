@@ -13,5 +13,13 @@ function autoloadController($className) {
     }
 }
 
+function autoloadUtils($className) {
+    $filename = "utilities/" . $className . ".php";
+    if (is_readable($filename)) {
+        require $filename;
+    }
+}
+
 spl_autoload_register("autoloadModel");
 spl_autoload_register("autoloadController");
+spl_autoload_register("autoloadUtils");
