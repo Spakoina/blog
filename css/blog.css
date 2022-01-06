@@ -27,3 +27,8 @@
     color: #00b359;
     text-decoration: underline;
 }
+
+.justify-text{
+    text-align: justify;
+    text-justify: inter-word;
+}

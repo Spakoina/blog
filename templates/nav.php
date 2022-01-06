@@ -46,8 +46,8 @@ if (sizeof($categories) > 0) {
                 ?>
             </ul>
             <form class="d-flex" action="<?php echo $GLOBALS['base_complete_url']; ?>/search" method="get" >
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="query" name="query" <?php echo (array_key_exists('query', $_GET) ? 'value="' . $_GET['query'] . '"' : ''); ?>>
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <input class="form-control me-2" type="search" placeholder="Cosa stai cercando?" aria-label="Search" id="query" name="query" <?php echo (array_key_exists('query', $_GET) ? 'value="' . $_GET['query'] . '"' : ''); ?>>
+                <button class="btn btn-outline-success" type="submit">Cerca</button>
             </form>
         </div>
     </div>

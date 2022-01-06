@@ -6,4 +6,11 @@
         <p class="mb-0">Customize this section to tell your visitors a little bit about your
             publication, writers, content, or something else entirely. Totally up to you.</p>
     </div>
+    
+    <div class="text-center">
+        Mi trovi anche qui 
+       
+         
+        
+    </div>
 </div>
