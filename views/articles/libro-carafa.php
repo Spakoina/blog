@@ -6,6 +6,10 @@
                  alt="Copertina libro Carafa" 
                  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/Carafa.jpg">
         </div>
+
+    </div><!-- Foto libro -->  
+
+    <div class="row">
         <div class="col">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
             Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
