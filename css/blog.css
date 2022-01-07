@@ -1,3 +1,7 @@
+body {
+    color: #0d0d0d
+}
+
 .featured-bg {
     background-image: url('/blog/img/paper.PNG');
     background-repeat: no-repeat;
@@ -25,6 +29,16 @@
 
 .read-more-link:hover {
     color: #00b359;
+    text-decoration: underline;
+}
+
+.article-title-link {
+    color: #484848;
+    text-decoration: none;
+}
+
+.article-title-link:hover {
+    color: #006633;
     text-decoration: underline;
 }
 
