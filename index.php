@@ -29,25 +29,17 @@ $action = count($param) > 1 ? $param[1] : null;
 
 //echo $request;exit;
 
-ob_start();
 switch ($controller) {
     case '/' :
     case '' :
-        $articlesRepo = new ArticleRepository();
-        $articles = $articlesRepo->fetch_articles();
-        $show_banner = true;
-        require( __DIR__ . '/views/home.php');
+        //main-banner.jpg
+        $homeController = new HomeController();
+        $homeController->home_page();
         break;
     case 'search' :
         $controller = new SearchController();
         $query = array_key_exists('query', $_GET) ? $_GET['query'] : '';
         $controller->search_articles($query);
-        break;
-    case 'libri' :
-        require( __DIR__ . '/views/libri.php');
-        break;
-    case 'cucina' :
-        require( __DIR__ . '/views/cucina.php');
         break;
     case 'categoria' :
         $controller = new CategoryController();
@@ -62,8 +54,4 @@ switch ($controller) {
         Render::view('404', []);
         break;
 }
-
-$content = ob_get_clean();
-
-require __DIR__ . '/templates/base.php';
 ?>
