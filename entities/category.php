@@ -3,6 +3,7 @@
 class Category {
     private $id_category_url_cd;
     private $category_label;
+    private $category_sub_title;
     private $category_ds;
     private $category_img;
 

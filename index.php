@@ -54,13 +54,12 @@ switch ($controller) {
         $controller->category_page($action);
         break;
     case 'article' :
-        $articlesRepo = new ArticleRepository();
-        $article = $articlesRepo->fetch_article_fromid($action);
-        require( __DIR__ . '/views/article.php');
+        $articlesController = new ArticleController();
+        $articlesController->article_page($action);
         break;
     default:
         http_response_code(404);
-        require( __DIR__ . '/views/404.php');
+        Render::view('404', []);
         break;
 }
 
