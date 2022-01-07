@@ -35,8 +35,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet"> 
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8891426399785268"
-        crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Nunito+Sans:ital,wght@0,200;1,200;1,300&display=swap" rel="stylesheet"> 
     </head>
 
     <body>

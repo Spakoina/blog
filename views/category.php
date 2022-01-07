@@ -25,13 +25,13 @@
     foreach ($articles as $key => $value) {
         ?>
         <article class="blog-post row">
-            <div class="col-5">
+            <div class="col-4">
                 <?php if (strlen($value->photo) > 0) { ?>
                     <img class="img-fluid" 
                          src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/<?php echo $value->photo; ?>">
                      <?php } ?>
             </div>
-            <div class="col-7">
+            <div class="col-8">
                 <h2 class="blog-post-title"><?php echo $value->title; ?></h2>
                 <p class="blog-post-meta fst-italic"><?php echo format_date(strtotime($value->date)); ?></p>
 

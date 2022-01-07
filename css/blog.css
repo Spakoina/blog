@@ -32,3 +32,8 @@
     text-align: justify;
     text-justify: inter-word;
 }
+
+.articlecontainer{
+    font-family: 'Verdana';
+    font-size: 18px;
+}
