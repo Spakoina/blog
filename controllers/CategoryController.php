@@ -2,8 +2,12 @@
 
 class CategoryController {
 
+    private $catRepo;
+    private $artRepo;
+
     function __construct() {
-        
+        $this->catRepo = new CategoryRepository();
+        $this->artRepo = new ArticleRepository();
     }
 
     public function category_page($id) {
@@ -11,12 +15,13 @@ class CategoryController {
             $this->category_page_notfound();
             return;
         } else {
-            $catRepo = new CategoryRepository();
-            $category = $catRepo->fetch_by_id($id);
-            $artRepo = new ArticleRepository();
-            $articles = $artRepo->fetch_by_category($id);
+            $category = $this->catRepo->fetch_by_id($id);
+            $articles = $this->artRepo->fetch_by_category($id);
+            $params = ['category' => $category,
+                'articles' => $articles];
             if (count($category) > 0) {
-                require_once 'views/category.php';
+                $params = array_merge($params, $this->build_category_paramas_banner($category[0]));
+                Render::view('category', $params);
             } else {
                 $this->category_page_notfound();
             }
@@ -24,7 +29,18 @@ class CategoryController {
     }
 
     private function category_page_notfound() {
-        echo "Categoria non esistente.";
+        Render::view('404', []);
+    }
+
+    private function build_category_paramas_banner($category) {
+        $params = [];
+        if ($category->category_banner_img != null && strlen($category->category_banner_img) > 0) {
+            $params['banner_img'] = 'categories/' . $category->category_banner_img;
+            if ($category->category_sub_title != null && strlen($category->category_sub_title) > 0) {
+                $params['banner_content'] = $category->category_sub_title;
+            }
+        }
+        return $params;
     }
 
 }

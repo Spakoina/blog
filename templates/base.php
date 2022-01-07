@@ -48,22 +48,26 @@
 
         <main class="container">
             <?php
-            if ($show_banner == true) {
-                ?>
-                <div style="background-image: url('<?php echo $GLOBALS['base_complete_url']; ?>/img/main-banner.jpg')" 
-                     class="main-banner py-5 mb-5 d-flex justify-content-center">
-                    <img class="img-fluid mx-auto d-none d-md-block p-1 border"  
-                         src="<?php echo $GLOBALS['base_complete_url']; ?>/img/paper.png">
-                    <div class="d-block d-md-none p-1 border">
-                        <p class="d-block d-md-none text-center bg-white p-2 m-0 font-luxurious">Il blog per nutrire la curiosità</p>
+            if (isset($banner_img) && strlen($banner_img) > 0) {
+                if (isset($banner_content) && strlen($banner_content) > 0) {
+                    ?>
+                    <div style="background-image: url('<?php echo $GLOBALS['base_complete_url'] . '/img/' . $banner_img; ?>')" 
+                         class="main-banner py-5 mb-5 d-flex justify-content-center">
+                        <div class="p-1 border text-center">
+                            <div class="bg-white p-2 m-0 font-luxurious">
+                                <?= $banner_content; ?>
+                            </div>
+                        </div>
                     </div>
-                </div>
-
-                <?php
-            }
-            ?>
-
-
+                    <?php
+                } else {
+                    ?>
+                    <img class="img-fluid mb-5 mx-auto d-block"  
+                         src="<?= $GLOBALS['base_complete_url'] . '/img/' . $banner_img; ?>">
+                         <?php
+                     }
+                 }
+                 ?>
 
             <div class="row g-5">
                 <div class="col-md-8">

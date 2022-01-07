@@ -2,8 +2,10 @@
 
 class SearchController {
 
+    private $articleRepo;
+
     function __construct() {
-        
+        $this->articleRepo = new ArticleRepository();
     }
 
     public function search_articles($query) {
@@ -11,9 +13,9 @@ class SearchController {
             echo "Query di ricerca non valida: inserisci almeno 4 caratteri.";
             return;
         } else {
-            $articlesRepo = new ArticleRepository();
-            $articles = $articlesRepo->search_article($query);
-            require_once 'views/search.php';
+            $articles = $this->articleRepo->search_article($query);
+            Render::view('search',
+                    ['articles' => $articles]);
         }
     }
 

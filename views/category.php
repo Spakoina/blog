@@ -2,14 +2,9 @@
     <?php echo $category[0]->category_label; ?>
 </h1>
 
-<?php if (strlen($category[0]->category_img) > 0) { ?>
-    <img class="img-fluid mb-2" 
-         alt="<?php echo $category[0]->category_label; ?>" 
-         src="<?php echo $GLOBALS['base_complete_url']; ?>/img/categories/<?php echo $category[0]->category_img; ?>">
-         <?php
-     }
-     if (strlen($category[0]->category_ds) > 0) {
-         ?>
+<?php
+if (strlen($category[0]->category_ds) > 0) {
+    ?>
     <p class="blog-post-meta fst-italic">
         <?php echo $category[0]->category_ds; ?>
     </p>
@@ -38,7 +33,7 @@
                 <p>
                     <?php echo $value->description; ?>
                     <a class="read-more-link"
-                        href="<?php echo $GLOBALS['base_complete_url'] . '/article/' . $value->id_article_url_cd; ?>">
+                       href="<?php echo $GLOBALS['base_complete_url'] . '/article/' . $value->id_article_url_cd; ?>">
                         Leggi tutto...
                     </a>
                 </p>
