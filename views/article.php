@@ -14,3 +14,11 @@
     }
     ?>
 </div>
+
+<div class="row mt-4">
+        <div class="col">
+         <img class="img-fluid rounded float-end" 
+                 alt="Scritta della firma Chiara" 
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/firma.jpg">
+        </div>
+</div> 
