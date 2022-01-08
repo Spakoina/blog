@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col">
             <img class="img-fluid" 
-                 alt="Copertina libro Intelligenza emotiva su kindle" 
+                 alt="Copertina libro su kindle"
+                 title="Copertina su kindle del libro"
                  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/goleman.jpg">
         </div>
     </div>

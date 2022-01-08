@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col">
             <img class="img-fluid" 
-                 alt="Copertina libro rosa Film Parlato fra le mie mani" 
+                 alt="Copertina libro rosa" 
+                 title="Copertina del libro fra le mie mani"
                  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/nemir.JPG">
         </div>
     </div>
