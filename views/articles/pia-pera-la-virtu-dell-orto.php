@@ -27,7 +27,7 @@
 
             Non vedevo l'ora di continuare a leggerlo per entrare nel piccolo mondo dell'autrice e ne ho centellinato la lettura per potermelo godere il più a lungo possibile.
             <br>
-<h2> Una riflessione </h2>
+<h2> L'illusione della solitudine. </h2>
             Ho apprezzato particolarmente l'attenzione a un discorso più generale sull'importanza della salvaguardia della natura, 
             l'invito a considerarci come <b>parte del tutto</b>.
             Persino uno spazietto del proprio giardino/orto, anche se recintato, possiede una sua interdipendenza con tutto il resto: la solitudine quindi è solo apparenza?
