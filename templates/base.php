@@ -9,6 +9,11 @@
         <meta name="generator" content="Chiara Censorio">
         <title>Blog Chiara</title>
 
+        <!--iconcina-->
+        <link rel="icon" type="image/x-icon" href="<?php echo $GLOBALS['base_complete_url']; ?>/favicon.ico" />
+        
+
+
         <!-- Bootstrap core CSS -->
         <link href="<?php echo $GLOBALS['base_complete_url']; ?>/css/bootstrap/bootstrap.min.css" rel="stylesheet">
 

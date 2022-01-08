@@ -13,7 +13,7 @@
 
         <div class="col mt-4 justify-text ">
             <i> "Quella che guarisce davvero è la consapevolezza di prendersi cura dell'orto/giardino ritagliando intanto, non importa quanto piccolo, non importa quanto visibile a pochi, un angolo di bellezza nel mondo".</i> <br><br>
-           
+
             Ho comprato questo libro incuriosita dall'argomento, peculiare rispetto a ciò che leggo di solito e poi perché 
             provengo da una famiglia contadina, nella quale l'orto ha sempre avuto grande importanza: per mio padre occuparsi
             dell'orto è qualcosa di vitale, mi sembra proprio che non riesca a vivere bene senza. 
@@ -26,16 +26,16 @@
             Non vedevo l'ora di continuare a leggerlo per entrare nel piccolo mondo dell'autrice e ne ho centellinato la lettura per potermelo godere il più a lungo possibile.
             <br>
 
-Ho apprezzato particolarmente l'attenzione a un discorso più generale sull'importanza della salvaguardia della natura, 
-l'invito a considerarci come <b>parte del tutto</b>.
-Persino uno spazietto del proprio giardino/orto, anche se recintato, possiede una sua interdipendenza con tutto il resto: la solitudine quindi è solo apparenza?
-            
-    
-            
-   </div>
-        
-    
-</div>
-    
+            Ho apprezzato particolarmente l'attenzione a un discorso più generale sull'importanza della salvaguardia della natura, 
+            l'invito a considerarci come <b>parte del tutto</b>.
+            Persino uno spazietto del proprio giardino/orto, anche se recintato, possiede una sua interdipendenza con tutto il resto: la solitudine quindi è solo apparenza?
+
+
+
+        </div>
+
+
     </div>
+
+</div>
 
