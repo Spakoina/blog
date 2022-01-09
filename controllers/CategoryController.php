@@ -17,7 +17,8 @@ class CategoryController {
         } else {
             $category = $this->catRepo->fetch_by_id($id);
             $articles = $this->artRepo->fetch_by_category($id);
-            $params = ['category' => $category,
+            $params = ['page_title' => $category[0]->category_label,
+                'category' => $category,
                 'articles' => $articles];
             if (count($category) > 0) {
                 $params = array_merge($params, $this->build_category_paramas_banner($category[0]));

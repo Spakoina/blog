@@ -15,7 +15,8 @@ class SearchController {
         } else {
             $articles = $this->articleRepo->search_article($query);
             Render::view('search',
-                    ['articles' => $articles]);
+                    ['page_title' => 'Ricerca',
+                        'articles' => $articles]);
         }
     }
 

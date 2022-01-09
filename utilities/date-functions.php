@@ -7,3 +7,10 @@ function format_date($date) {
     $newDate = utf8_encode(strftime("%A %d %B %Y", $date));
     return ucfirst($newDate);
 }
+
+function format_date_notime($date) {
+    $oldLocale = setlocale(LC_TIME, 'it_IT');
+    setlocale(LC_TIME, $oldLocale);
+    $newDate = utf8_encode(strftime("%Y-%m-%y", $date));
+    return ucfirst($newDate);
+}

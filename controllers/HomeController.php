@@ -15,7 +15,8 @@ class HomeController {
                         <p class="d-block d-md-none m-0">Il blog per nutrire la curiosità</p>';
 
         Render::view('home',
-                ['banner_img' => 'main-banner.jpg',
+                ['page_title' => 'Home',
+                    'banner_img' => 'main-banner.jpg',
                     'articles' => $article,
                     'banner_content' => $banner_content]
         );

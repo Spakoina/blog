@@ -11,7 +11,8 @@ class ArticleController {
     public function article_page($article_id) {
         $article = $this->articleRepo->fetch_article_fromid($article_id);
         Render::view('article',
-                ['article' => $article]);
+                ['page_title' => $article[0]->title,
+                    'article' => $article]);
     }
 
 }

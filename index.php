@@ -49,6 +49,10 @@ switch ($controller) {
         $articlesController = new ArticleController();
         $articlesController->article_page($action);
         break;
+    case 'sitemap' :
+        $sitemapController = new SitemapController();
+        $sitemapController->sitemap();
+        break;
     default:
         http_response_code(404);
         Render::view('404', []);
