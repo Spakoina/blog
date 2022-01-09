@@ -16,9 +16,13 @@ class ArticleRepository {
         return $articles;
     }
 
-    public function fetch_articles() {
+    public function fetch_articles(int $limit = 0) {
         $pdo = db_connect();
-        $articles = $pdo->query('SELECT * FROM article')->fetchAll(PDO::FETCH_CLASS, 'Article');
+        $select_query = 'SELECT * FROM article ORDER BY date DESC';
+        if ($limit > 0) {
+            $select_query .= " LIMIT $limit";
+        }
+        $articles = $pdo->query($select_query)->fetchAll(PDO::FETCH_CLASS, 'Article');
         db_disconnect($pdo);
         return $articles;
     }

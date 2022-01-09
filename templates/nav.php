@@ -2,11 +2,11 @@
 // Preparing menù elements
 $menu[] = array();
 
-$homeurl = $GLOBALS['base_complete_url'] . '/';
+$homeurl = $GLOBALS['base_complete_url'];
 $menu[0] = array(
     "title" => "Home",
-    "link" => $homeurl,
-    "active" => ($GLOBALS['current_url'] == $homeurl ? true : false)
+    "link" => $homeurl . '/',
+    "active" => ($GLOBALS['current_url'] == $homeurl || $GLOBALS['current_url'] == $homeurl . '/' ? true : false)
 );
 
 $catRepo = new CategoryRepository();

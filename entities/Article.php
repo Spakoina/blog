@@ -6,6 +6,7 @@ class Article {
     private $description;
     private $date;
     private $photo;
+    private $photo_featured;
 
     public function __get($property) {
         if (property_exists($this, $property)) {

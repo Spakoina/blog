@@ -107,7 +107,7 @@
                 if (isset($banner_content) && strlen($banner_content) > 0) {
                     ?>
                     <div style="background-image: url('<?php echo $GLOBALS['base_complete_url'] . '/img/' . $banner_img; ?>')" 
-                         class="main-banner py-5 mb-5 d-flex justify-content-center">
+                         class="main-banner py-5 mb-3 d-flex justify-content-center">
                         <div class="p-1 border text-center">
                             <div class="bg-white p-2 m-0 font-luxurious">
                                 <?= $banner_content; ?>
@@ -117,10 +117,14 @@
                     <?php
                 } else {
                     ?>
-                    <img class="img-fluid mb-5 mx-auto d-block"  
+                    <img class="img-fluid mb-3 mx-auto d-block"  
                          src="<?= $GLOBALS['base_complete_url'] . '/img/' . $banner_img; ?>">
                          <?php
                      }
+                 }
+
+                 if (isset($pre_content) && strlen($pre_content) > 0) {
+                     echo $pre_content;
                  }
                  ?>
 
