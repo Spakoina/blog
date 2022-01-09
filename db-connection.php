@@ -2,11 +2,11 @@
 
 function db_connect() {
     $servername = "127.0.0.1:3306";
-    $username = "blog";
-    $password = "blogPhpConn2022";
+    $username = "my_avid3838239";
+    $password = "";
 
     try {
-        $conn = new PDO("mysql:host=$servername;dbname=blog", $username, $password);
+        $conn = new PDO("mysql:host=$servername;dbname=my_avid3838239", $username, $password);
         // set the PDO error mode to exception
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         return $conn;
