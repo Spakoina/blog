@@ -1,5 +1,5 @@
 
-<div class="position-sticky" style="top: 2rem;">
+<div style="top: 2rem;">
     <div class="p-4 mb-3 bg-light rounded">
         <img class="img-fluid rounded-circle" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/scrivere.jpg">
         <h4 class="fst-italic">About</h4>
@@ -9,8 +9,9 @@
             Spero di aiutarti a fare lo stesso.  </p>
     </div>
 
+   
+    
     <div class="text-center">
-        Mi trovi anche qui 
-    </div>
-    <iframe id='kofiframe' src='https://ko-fi.com/papergirlblog/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='papergirlblog'></iframe>
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#376940', 'W7W27UWGO');kofiwidget2.draw();</script> 
+</div>
 </div>
