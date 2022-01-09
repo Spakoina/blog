@@ -1,11 +1,11 @@
-<h1 class="mt-4 mb-5 font-luxurious">
+<h1 class="mt-4 mb-1 font-luxurious">
     <?php echo $category[0]->category_label; ?>
 </h1>
 
 <?php
 if (strlen($category[0]->category_ds) > 0) {
     ?>
-    <p class="blog-post-meta fst-italic">
+    <p class="blog-post-meta fst-italic mb-5 font-luxurious">
         <?php echo $category[0]->category_ds; ?>
     </p>
     <?php

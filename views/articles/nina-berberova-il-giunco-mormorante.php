@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col">
             <img class="img-fluid" 
-                 alt="Copertina libro Il giunco mormorante con libri sfocati sullo sfondo" 
+                 alt="Copertina libro Il giunco mormorante" 
+                 title="Copertina su sfondo letterario"
                  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/giunco.JPG">
         </div>
     </div>
