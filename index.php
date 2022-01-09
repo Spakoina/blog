@@ -49,7 +49,7 @@ switch ($controller) {
         $articlesController = new ArticleController();
         $articlesController->article_page($action);
         break;
-    case 'sitemap' :
+    case 'sitemap.xml' :
         $sitemapController = new SitemapController();
         $sitemapController->sitemap();
         break;
