@@ -14,6 +14,7 @@ if (strlen($category[0]->category_ds) > 0) {
 
 <div class="row">
     <?php
+    if (isset ($articles) && count($articles)>0) {
     $arrUtils = new ArrayUtils();
     $arrUtils->sortArticleByDate($articles);
     // Printing all the articles in HTML
@@ -46,6 +47,9 @@ if (strlen($category[0]->category_ds) > 0) {
         </article>
         <hr>
         <?php
+    }
+    }else{
+        echo '<p class="display-6">Ancora nessun articolo in questa categoria, ritorna tra qualche giorno ;)</p>';
     }
     ?>
 </div>
