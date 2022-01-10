@@ -12,7 +12,7 @@
 
     <div class="row">
         <div class="col justify-text">
-            QUesto è un libro nato dalla collaborazione fra una neuroscienziata e una scrittrice. Il fatto che siano
+            Questo è un libro nato dalla collaborazione fra una neuroscienziata e una scrittrice. Il fatto che siano
             sorelle lo rende bello da un punto di vista dei contenuti vista la grande sintonia che si percepisce nel corso della lettura
             via via che ci vengono descritte le ricerche e gli aneddoti. Nel complesso è stato davvero piacevole mettermi alla prova con questo saggio.
             <br><br>
