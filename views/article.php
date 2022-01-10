@@ -21,6 +21,8 @@
                  alt="Scritta della firma Chiara" 
                  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/firma.jpg">
         </div>
+    
+   
   
 </div>
 
