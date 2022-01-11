@@ -1,31 +1,32 @@
 
 <div style="top: 2rem;">
-    <div class="p-4 mb-5 bg-light rounded text-center">
-        <img class="img-fluid rounded-circle w-75 mx-auto d-block" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/scrivere.jpg">
-        <h4 class="fst-italic pt-2">Benvenuti</h4>
+    <div class="p-2 mb-5 bg-light rounded text-center">
+        <img class="img-fluid rounded-circle mx-auto d-block" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/scrivere.jpg">
+        <h4 class="fst-italic pt-2">Benvenuti sul mio blog</h4>
         <p class="mb-0">Ehilà curiosa o curioso!<br><!-- comment --> 
             Sono Chiara e sono molto felice tu sia su questo blog.<br><!-- comment -->
-            Leggo soprattutto saggi e narrativa e mi piace condividere tutto quello che scopro e che mi fa crescere. <br><!-- comment -->
+            Leggo soprattutto saggi e narrativa e voglio scrivere qui tutto quello che scopro e che mi fa crescere. <br><!-- comment -->
             Spero di aiutarti a fare lo stesso.  </p>
+
+        <br><!-- comment -->
+        Se ti piace quello che faccio puoi sostenermi comprandomi un caffè &#x2661
+
+        
+        <div class="text-center pt-4">
+            <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#376940', 'W7W27UWGO');kofiwidget2.draw();</script> 
+        </div>
+  <!-- Fine kofi -->
+        <br>       
     </div>
 
 
-
-    <div class="text-center">
-        <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#376940', 'W7W27UWGO');kofiwidget2.draw();</script> 
-    </div>
-
-    <!-- Fine kofi -->
 
     <div style="top: 2rem;">
         <div class="p-3 mt-5 mb-3 bg-light rounded text-center">
 
-            <h5><p class=" fst-italic mb-0">Seguimi su Instagram  </p></h5>
+            <h4><p class=" fst-italic mb-0 pt-2">Seguimi su Instagram </p></h4>
         </div>
 
-
-
-        
         
         <!<!--Griglia Ig -->
 
@@ -99,12 +100,36 @@
                     </div>
                 </div>
             </div>
+        </div>
 
 
 
 
+
+
+        <!<!-- Goodreads -->
+
+
+        <div style="top: 2rem;">
+            <div class="p-3 mt-5 mb-3 bg-light rounded text-center">
+
+                <h4><p class=" fst-italic mb-0">Cosa sto leggendo </p></h4>
+            </div>
+
+
+
+                <div class="row border py-3">
+                    <div class="col-3">
+                        <img class="img-fluid" 
+                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/saram.jpg" class="cardgr" alt="Foto Instagram">
+                    </div>
+                    <div class="col-9">
+                        One of 2 columns
+                    </div>
+                </div>
+
+            
         </div>
     </div>
-</div>
 
 
