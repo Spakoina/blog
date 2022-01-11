@@ -11,6 +11,6 @@ function format_date($date) {
 function format_date_notime($date) {
     $oldLocale = setlocale(LC_TIME, 'it_IT');
     setlocale(LC_TIME, $oldLocale);
-    $newDate = utf8_encode(date("%Y-%m-%d", $date));
+    $newDate = utf8_encode(date("Y-m-d", $date));
     return $newDate;
 }
