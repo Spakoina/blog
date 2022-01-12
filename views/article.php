@@ -15,7 +15,7 @@
     ?>
 </div>
 
-<div class="row mt-4">
+<div class="row mt-2 mb-5">
         <div class="col">
          <img class="img-fluid rounded float-end" 
                  alt="Scritta della firma Chiara" 
@@ -23,6 +23,12 @@
         </div>
     
    
-  
+</div>
+    <div class="row mt-5">
+        <div class="col">
+            <p class="font-size-medium"> <em>Puoi seguirmi sull'account Instagram cliccando <a href="https://www.instagram.com/papergirl.ninja/" target="_blank"><b>QUI</b></a> e non perderai nessun articolo. 
+                    Torna alla <a href="https://www.papergirlblog.com"><b>HOME PAGE</b></a></em> </p>
+        </div>
+         
 </div>
 

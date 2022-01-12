@@ -79,9 +79,3 @@ h2{
 .hoveropacity img:hover {
     opacity: 0.5;
 }
-
-.goodreads{
-   width:100px; 
-   height:50px; 
-   border:1px inset blue;
-}
