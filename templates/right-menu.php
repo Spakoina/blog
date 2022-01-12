@@ -16,7 +16,13 @@
             <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#376940', 'W7W27UWGO');kofiwidget2.draw();</script> 
         </div>
   <!-- Fine kofi -->
-        <br>       
+        <br>  
+        
+        <img class="img-fluid" 
+                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/firma-sm.jpg" alt="Firma Chiara">
+        
+        
+        
     </div>
 
 
