@@ -1,7 +1,7 @@
 
 <div class="container">
     <div class="row mb-4">
-        <div class="col">
+        <div class="col-8 offset-2">
             <img class="img-fluid" 
                  alt="Copertina libro Carafa" 
                  title="Splendida illustrazione per la copertina del libro di Carafa"

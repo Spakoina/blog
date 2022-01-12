@@ -26,7 +26,7 @@
 </div>
     <div class="row mt-5">
         <div class="col">
-            <p class="font-size-medium"> <em>Puoi seguirmi sull'account Instagram cliccando <a href="https://www.instagram.com/papergirl.ninja/" target="_blank"><b>Seguimi</b></a> e non perderai nessun articolo. 
+            <p class="font-size-medium"> <em>Puoi seguirmi sull'account Instagram <a href="https://www.instagram.com/papergirl.ninja/" target="_blank"><b>@papergirl.ninja</b></a> e non perderai nessun articolo. 
                     Torna alla <a href="https://www.papergirlblog.com"><b>HOME PAGE</b></a></em> </p>
         </div>
          
