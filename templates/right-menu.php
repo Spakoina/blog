@@ -28,9 +28,9 @@
 
 
     <div style="top: 2rem;">
-        <div class="p-3 mt-5 mb-3 bg-light rounded text-center">
+        <div class="mt-5 mb-3 bg-light rounded text-center border">
 
-            <h4><p class=" fst-italic mb-0 pt-2">Seguimi su Instagram </p></h4>
+            <h4 class="fst-italic mb-0 pt-2">Seguimi su Instagram </p></h4>
         </div>
 
 
@@ -117,9 +117,9 @@
 
 
         <div style="top: 2rem;">
-            <div class="p-3 mt-5 mb-3 bg-light rounded text-center">
+            <div class="mt-5 mb-3 bg-light rounded text-center">
 
-                <h4><p class=" fst-italic mb-0">Cosa sto leggendo </p></h4>
+                <h4 class="fst-italic mb-0">Cosa sto leggendo </p></h4>
             </div>
 
 

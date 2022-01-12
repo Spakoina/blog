@@ -28,7 +28,7 @@ In questo romanzo di formazione la "materia oscura" è rappresentata da tutte le
 Grazie alle parole di Carafa mi sono chiesta anche io (insieme a Pintus) quale effetto abbiano avuto sulla mia vita la casualità, le cose non dette, gli atti mancati e quale sia il confine fra una vita "passiva" e una vita vissuta semplicemente <b>assecondando gli eventi</b>.
 E voi? Assecondate o subite passivamente la vita?
 
-Grazie ai ragazzi di @bookswithoutfrills che su Instagram mi hanno fatto conoscere il libro e complimenti alla casa editrice Cliquot per aver recuperato e ridato nuova vita a questa opera, finalista al premio Strega nel '75.
+Grazie ai ragazzi di <a href="https://www.instagram.com/bookswithoutfrills/" target="_blank"><b>@bookswithoutfrills</b></a> che su Instagram mi hanno fatto conoscere il libro e complimenti alla casa editrice Cliquot per aver recuperato e ridato nuova vita a questa opera, finalista al premio Strega nel '75.
 
 
         </div>
