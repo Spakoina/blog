@@ -76,6 +76,6 @@ h2{
 }
 
 /*BRIGHTEN foto right ig*/
-.hoveropacity img:hover {
+.hoveropacity img:hover, .imghoveropacity:hover {
     opacity: 0.5;
 }

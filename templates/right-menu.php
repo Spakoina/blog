@@ -11,18 +11,18 @@
         <br><!-- comment -->
         Se ti piace quello che faccio puoi sostenermi comprandomi un caffè &#x2661
 
-        
+
         <div class="text-center pt-4">
             <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#376940', 'W7W27UWGO');kofiwidget2.draw();</script> 
         </div>
-  <!-- Fine kofi -->
+        <!-- Fine kofi -->
         <br>  
-        
+
         <img class="img-fluid" 
-                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/firma-sm.jpg" alt="Firma Chiara">
-        
-        
-        
+             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/firma-sm.jpg" alt="Firma Chiara">
+
+
+
     </div>
 
 
@@ -33,7 +33,7 @@
             <h4><p class=" fst-italic mb-0 pt-2">Seguimi su Instagram </p></h4>
         </div>
 
-        
+
         <!<!--Griglia Ig -->
 
 
@@ -123,18 +123,29 @@
             </div>
 
 
+            <div class="border p-3">
+                <div class="row">
 
-                <div class="row border py-3">
+                    <div class="col-9">
+                        <h5><em>Le intermittenze della morte</em></h5> di José Saramago
+                    </div>
                     <div class="col-3">
                         <img class="img-fluid" 
-                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/saram.jpg" class="cardgr" alt="Foto Instagram">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/saram.jpg" alt="Copertina libro">
                     </div>
-                    <div class="col-9">
-                        One of 2 columns
+
+                </div>
+                <div class="row">
+                    <div class="col mt-3 text-center"><a href="https://www.goodreads.com/user/show/104782651-evadida-eu-sou" target="_blank">
+                        <img class="border imghoveropacity" goodreads.com/papergirlblog
+                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grlogo.jpg" alt="banner goodreads">  </a>           
                     </div>
                 </div>
+            </div>
 
-            
+
+
+
         </div>
     </div>
 
