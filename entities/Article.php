@@ -4,6 +4,7 @@ class Article {
     private $id_article_url_cd;
     private $title;
     private $description;
+    private $meta_description;
     private $date;
     private $photo;
     private $photo_featured;

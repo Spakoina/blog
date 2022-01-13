@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="">
+        <?= isset($meta_description) && strlen($meta_description) > 0 ? "<meta name=\"description\" content=\"$meta_description\">" : ''; ?>
         <meta name="author" content="Chiara Censorio">
         <meta name="generator" content="Chiara Censorio">
         <title><?= isset($page_title) && strlen($page_title) ? $page_title . ' | ' : ''; ?>PaperGirlBlog</title>

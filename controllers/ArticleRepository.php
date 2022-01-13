@@ -47,4 +47,34 @@ class ArticleRepository {
         return $articles;
     }
 
+    public function search_next_article($article) {
+        $pdo = db_connect();
+        $param['article_cd'] = $article->id_article_url_cd;
+        $param['article_date'] = $article->date;
+        $stmt = $pdo->prepare(
+                "SELECT a.* FROM article a where datediff(a.date, :article_date) > 0 "
+                . "AND a.id_article_url_cd <> :article_cd "
+                . "ORDER BY datediff(a.date, :article_date) ASC "
+                . "LIMIT 1");
+        $stmt->execute($param);
+        $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Article');
+        db_disconnect($pdo);
+        return isset($articles) && count($articles) > 0 ? $articles[0] : null;
+    }
+
+    public function search_prev_article($article) {
+        $pdo = db_connect();
+        $param['article_cd'] = $article->id_article_url_cd;
+        $param['article_date'] = $article->date;
+        $stmt = $pdo->prepare(
+                "SELECT a.* FROM article a where datediff(:article_date, a.date) > 0 "
+                . "AND a.id_article_url_cd <> :article_cd "
+                . "ORDER BY datediff(:article_date, a.date) ASC "
+                . "LIMIT 1");
+        $stmt->execute($param);
+        $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Article');
+        db_disconnect($pdo);
+        return isset($articles) && count($articles) > 0 ? $articles[0] : null;
+    }
+
 }

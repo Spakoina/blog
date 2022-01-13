@@ -10,6 +10,10 @@ class ArrayUtils {
         usort($articles, "ArrayUtils::cmp");
     }
 
+    public function sort_categories(&$categories) {
+        usort($categories, "ArrayUtils::cmp_sort_categories");
+    }
+
     // Sorting articles by date
     private function cmp($a, $b) {
         $dateA = strtotime($a->date);
@@ -18,6 +22,16 @@ class ArrayUtils {
             return 0;
         }
         return ($dateA > $dateB) ? -1 : 1;
+    }
+
+    // Sorting articles by date
+    private function cmp_sort_categories($a, $b) {
+        $dateA = strtotime($a->date);
+        $dateB = strtotime($b->date);
+        if ($a == $b) {
+            return 0;
+        }
+        return ($a > $b) ? -1 : 1;
     }
 
 }

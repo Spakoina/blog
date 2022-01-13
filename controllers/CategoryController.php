@@ -18,6 +18,7 @@ class CategoryController {
             $category = $this->catRepo->fetch_by_id($id);
             $articles = $this->artRepo->fetch_by_category($id);
             $params = ['page_title' => $category[0]->category_label,
+                'meta_description' => $category[0]->meta_description,
                 'category' => $category,
                 'articles' => $articles];
             if (count($category) > 0) {

@@ -12,6 +12,8 @@ $menu[0] = array(
 $catRepo = new CategoryRepository();
 $categories = $catRepo->fetch_all();
 if (sizeof($categories) > 0) {
+    $arr_utils = new ArrayUtils();
+    $arr_utils->sort_categories($categories);
     foreach ($categories as $key => $cat) {
         $caturl = $GLOBALS['base_complete_url'] . '/categoria/' . $cat->id_category_url_cd;
         $menu[count($menu)] = array(
