@@ -1,10 +1,10 @@
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col-8 offset-2">
             <img class="img-fluid" 
                  alt="Copertina libro La virtù dell'orto" 
                  title="Libro con orto sullo sfondo"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/piapera.JPG">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/piapera.jpg">
         </div>
     </div>
 

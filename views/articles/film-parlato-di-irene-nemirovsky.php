@@ -1,10 +1,10 @@
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col-8 offset-2">
             <img class="img-fluid" 
                  alt="Copertina libro rosa" 
                  title="Copertina del libro fra le mie mani"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/nemir.JPG">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/nemir.jpg">
         </div>
     </div>
 

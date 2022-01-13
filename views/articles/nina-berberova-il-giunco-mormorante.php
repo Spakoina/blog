@@ -1,10 +1,10 @@
 <div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col-8 offset-2">
             <img class="img-fluid" 
                  alt="Copertina libro Il giunco mormorante" 
                  title="Copertina su sfondo letterario"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/giunco.JPG">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/giunco.jpg">
         </div>
     </div>
 
