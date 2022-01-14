@@ -30,7 +30,8 @@ necessità, abitudine, ma sono comunque sempre indispensabili per raddrizzare la
 <br><br>
 I suoi pensieri si dispiegano in tre parti narrative e su tre città: 
 Parigi, Stoccolma e Venezia e quella che può sembrare dall’inizio una storia d’amore fra due amanti, 
-con un primo momento di separazione, poi incontro e un atto di coraggio finale, si è rivelata per me più una storia d’amore per sé stessi.
+con un primo momento di separazione, poi incontro e un atto di coraggio finale, 
+si è rivelata per me più una storia d’amore per sé stessi.
 <br><br>
 È un piccolo grande libro e uno dei miei preferiti perché fornisce il coraggio 
 di dare corpo alla libertà e al mistero, di <b>difendere la nostra interiorità</b> e di volerci bene. 

@@ -15,9 +15,11 @@
         <div class="col mt-4 justify-text ">
 
 
-            Mi sarebbe piaciuto tantissimo aver avuto da adolescente sotto mano un testo come “Intelligenza emotiva” di Daniel Goleman, 
-            un libro capace, grazie a un modo di esporre molto semplice e a tanti studi reali, di trattare argomenti che riguardano il nostro modo di essere all'interno della società e 
-            come tali andrebbero quanto meno affrontati nel corso della nostra vita scolastica almeno una volta nella vita.
+            Mi sarebbe piaciuto tantissimo aver avuto da adolescente sotto mano un testo 
+            come “Intelligenza emotiva” di Daniel Goleman, 
+            un libro capace, grazie a un modo di esporre molto semplice e a tanti studi reali, 
+            di trattare argomenti che riguardano il nostro modo di essere all'interno della società e 
+            come tali andrebbero quanto meno affrontati nel percorso scolastico almeno una volta nella vita.
             <br><br>
             <h2> Qual è l'idea di Goleman?</h2>
             L'idea portante di tutto il libro è che l'intelligenza emotiva, formata da empatia, 
