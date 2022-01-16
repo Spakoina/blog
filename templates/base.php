@@ -153,7 +153,7 @@
         </footer>
 
         <script src="<?php echo $GLOBALS['base_complete_url']; ?>/js/bootstrap/bootstrap.min.js"></script>
-
+        <script src="https://kit.fontawesome.com/c28e215f17.js" crossorigin="anonymous"></script>
     </body>
 
 </html>

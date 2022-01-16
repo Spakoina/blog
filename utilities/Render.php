@@ -3,11 +3,14 @@
 class Render {
 
     public static function view($template, $vars) {
+        $all_tags = null;
         extract($vars);
         $template_path = './views/' . $template . '.php';
 
         ob_start();
         if (file_exists($template_path)) {
+            $tagRepo = new TagRepository();
+            $all_tags = $tagRepo->fetch_tags();
             require $template_path;
         } else {
             echo 'Errore durante il caricamento della vista.';

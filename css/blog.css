@@ -32,12 +32,12 @@ body {
     text-decoration: underline;
 }
 
-.article-title-link {
+.article-title-link, .default-link {
     color: #484848;
     text-decoration: none;
 }
 
-.article-title-link:hover {
+.article-title-link:hover, .default-link:hover {
     color: #006633;
     text-decoration: underline;
 }
@@ -78,4 +78,12 @@ h2{
 /*BRIGHTEN foto right ig*/
 .hoveropacity img:hover, .imghoveropacity:hover {
     opacity: 0.5;
+}
+
+.tag-link {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    padding: 0px 10px;
+    margin-left: 5px;
 }

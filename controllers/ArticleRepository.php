@@ -37,6 +37,16 @@ class ArticleRepository {
         return $articles;
     }
 
+    public function search_article_from_tag($tag_id) {
+        $pdo = db_connect();
+        $param['tag_id'] = $tag_id;
+        $stmt = $pdo->prepare('SELECT a.* FROM article_tag at LEFT JOIN article a ON at.id_article_url_cd = a.id_article_url_cd WHERE at.id_tag_cd = :tag_id');
+        $stmt->execute($param);
+        $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Article');
+        db_disconnect($pdo);
+        return $articles;
+    }
+
     public function search_article($query) {
         $pdo = db_connect();
         $param['query'] = $query;

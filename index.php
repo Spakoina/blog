@@ -39,7 +39,8 @@ switch ($controller) {
     case 'search' :
         $controller = new SearchController();
         $query = array_key_exists('query', $_GET) ? $_GET['query'] : '';
-        $controller->search_articles($query);
+        $tag = array_key_exists('tag', $_GET) ? $_GET['tag'] : '';
+        $controller->search_articles($query, $tag);
         break;
     case 'categoria' :
         $controller = new CategoryController();

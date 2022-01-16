@@ -1,8 +1,17 @@
-<h1 class="mt-4 mb-5 font-luxurious">
+<h1 class="mt-4 font-luxurious">
     <?php echo $article[0]->title; ?>
 </h1>
-
-<p class="blog-post-meta fst-italic"><?php echo format_date(strtotime($article[0]->date)); ?></p>
+<?php
+if (isset($tags) && count($tags) > 0) {
+    echo '<div class="row"> <div class="col">';
+    foreach ($tags as $tag) {
+        $search_link = $GLOBALS['base_complete_url'] . '/search?tag=' . $tag->id_tag_cd;
+        echo '<a class="tag-link default-link" href="' . $search_link . '"><i class="' . $tag->tag_icon . '"></i> ' . $tag->tag_label . '</a>';
+    }
+    echo '</div></div>';
+}
+?>
+<p class="blog-post-meta fst-italic mt-3"><?php echo format_date(strtotime($article[0]->date)); ?></p>
 
 <div class="row articlecontainer">
     <?php
