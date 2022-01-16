@@ -18,7 +18,7 @@
     </div>
 
     <div style="top: 2rem;">
-        <div class="mt-5 mb-3 bg-light rounded text-center border">
+        <div class="mt-5 mb-3 bg-light rounded text-center">
             <h4 class="fst-italic mb-0 pt-2">Seguimi su Instagram </p></h4>
         </div>
 
@@ -116,7 +116,7 @@
                 if (isset($all_tags) && count($all_tags) > 0) {
                     foreach ($all_tags as $tag) {
                         $search_link = $GLOBALS['base_complete_url'] . '/search?tag=' . $tag->id_tag_cd;
-                        echo '<a class="tag-link default-link" href="' . $search_link . '"><i class="' . $tag->tag_icon . '"></i> ' . $tag->tag_label . '</a>';
+                        echo '<a class="tag-link default-link mb-2" href="' . $search_link . '"><i class="' . $tag->tag_icon . '"></i> ' . $tag->tag_label . '</a>';
                     }
                 }
                 ?>
