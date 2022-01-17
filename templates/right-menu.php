@@ -24,7 +24,7 @@
 
         <!<!--Griglia Ig -->
         <div class="row row-cols-1 row-cols-md-2 g-4 hoveropacity">
-            <div class="col">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CWdDMn0sF1r/">  
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CU2nD6UMQ19/">  
@@ -42,7 +42,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CUmi0V5MzVy/">  
@@ -51,7 +51,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CTwxGXBsVeH/">  
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CUP4jXrM75S/">  
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CQydX6uHZx1/">  
