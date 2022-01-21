@@ -3,7 +3,7 @@
     <div class="row">
         <div class="col-2 p-2">
             <img class="img-fluid" 
-                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/papernero.jpg" alt="Foto Instagram">
+                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/papernero.jpg" alt="Foto banner logo piccolo">
         </div>
 
         <div class="col-8 text-center bg-dark text-white pt-5">

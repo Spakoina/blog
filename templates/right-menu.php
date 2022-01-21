@@ -4,8 +4,9 @@
         <h4 class="fst-italic pt-2">Benvenuti sul mio blog</h4>
         <p class="mb-0">Ehilà curiosa o curioso!<br><!-- comment --> 
             Sono Chiara e sono molto felice tu sia su questo blog.<br><!-- comment -->
-            Leggo soprattutto saggi e narrativa e voglio scrivere qui tutto quello che scopro e che mi fa crescere. <br><!-- comment -->
-            Spero di aiutarti a fare lo stesso.  </p>
+            Qui riporto i miei pensieri su quello che scopro e che mi fa crescere, 
+            nella speranza di dare anche agli altri un piccolo contributo al bisogno di crescita. <br><!-- comment -->
+              </p>
         <br>
         Se ti piace quello che faccio puoi sostenermi comprandomi un caffè &#x2661
         <div class="text-center pt-4">
@@ -27,7 +28,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CWdDMn0sF1r/">  
+                        <a href="https://www.instagram.com/p/CWdDMn0sF1r/" target="_blank">  
                             <img class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ippo-ig.jpg" class="card-img-top" alt="Foto copertina su kindle">
                         </a>
                     </div>
@@ -36,7 +37,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CU2nD6UMQ19/">  
+                        <a href="https://www.instagram.com/p/CU2nD6UMQ19/" target="_blank">  
                             <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/carafa-ig.jpg" class="card-img-top" alt="Foto copertina libro cartaceo">
                         </a>
                     </div>
@@ -45,7 +46,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CUmi0V5MzVy/">  
+                        <a href="https://www.instagram.com/p/CUmi0V5MzVy/" target="_blank">  
                             <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/terra-ig.jpg" class="card-img-top" alt="Foto copertina libro sulla terra">
                         </a>
                     </div>
@@ -54,7 +55,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CTwxGXBsVeH/">  
+                        <a href="https://www.instagram.com/p/CTwxGXBsVeH/" target="_blank">  
                             <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/venezia.jpg" class="card-img-top" alt="Foto facciata gialla Venezia">
                         </a>
                     </div>
@@ -63,7 +64,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CUP4jXrM75S/">  
+                        <a href="https://www.instagram.com/p/CUP4jXrM75S/" target="_blank">  
                             <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cielo-ig.jpg" class="card-img-top" alt="Foto cielo rosa">
                         </a>
                     </div>
@@ -72,7 +73,7 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CQydX6uHZx1/">  
+                        <a href="https://www.instagram.com/p/CQydX6uHZx1/" target="_blank">  
                             <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pessoa-ig.jpg" class="card-img-top" alt="Foto Instagram">
                         </a>
                     </div>
@@ -106,7 +107,7 @@
 
         <div class="row mt-3">
             <div class="col bg-light rounded text-center">
-                <h4 class="fst-italic mb-0">Cerca articoli per tag</p></h4>
+                <h4 class="fst-italic ">Cerca articoli per tag</p></h4>
             </div>
         </div>
 
