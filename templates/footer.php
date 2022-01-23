@@ -1,12 +1,10 @@
 
-<div class="container-fluid mt-5 bg-dark">
+<div class="container-fluid footer-bg mt-5" >
     <div class="row">
-        <div class="col-2 p-2">
-            <img class="img-fluid" 
-                            src="<?php echo $GLOBALS['base_complete_url']; ?>/img/papernero.jpg" alt="Foto banner logo piccolo">
+        <div class="col-2">
         </div>
 
-        <div class="col-8 text-center bg-dark text-white pt-5">
+        <div class="col-8 text-center py-2">
             2022 Chiara Paper Girl Blog
             <br />
             All rights reserved
