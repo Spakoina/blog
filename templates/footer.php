@@ -1,5 +1,5 @@
 
-<div class="container-fluid footer-bg" >
+<div class="container-fluid footer-bg mt-5" >
     <div class="row">
         <div class="col-2">
         </div>
