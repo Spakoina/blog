@@ -42,6 +42,10 @@ switch ($controller) {
         $tag = array_key_exists('tag', $_GET) ? $_GET['tag'] : '';
         $controller->search_articles($query, $tag);
         break;
+    case 'about' :
+        $controller = new AboutController();
+        $controller->about_page();
+        break;
     case 'categoria' :
         $controller = new CategoryController();
         $controller->category_page($action);

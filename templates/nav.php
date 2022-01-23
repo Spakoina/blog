@@ -23,6 +23,12 @@ if (sizeof($categories) > 0) {
         );
     }
 }
+
+$menu[] = array(
+    "title" => "About",
+    "link" => $homeurl . '/about',
+    "active" => ($GLOBALS['current_url'] == $homeurl . '/about' ? true : false)
+);
 ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
