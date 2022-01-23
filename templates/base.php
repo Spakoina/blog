@@ -1,3 +1,12 @@
+<?php
+$curr_url = "https://";
+
+// Append the host(domain name, ip) to the URL.   
+$curr_url .= $_SERVER['HTTP_HOST'];
+
+// Append the requested resource location to the URL   
+$curr_url .= $_SERVER['REQUEST_URI'];
+?>
 <!doctype html>
 <html lang="it">
 
@@ -11,6 +20,9 @@
 
         <!--iconcina-->
         <link rel="icon" type="image/x-icon" href="<?php echo $GLOBALS['base_complete_url']; ?>/favicon.ico" />
+
+        <!-- Canonical -->
+        <link rel="canonical" href="<?= $curr_url ?>" />
 
         <!-- Bootstrap core CSS -->
         <link href="<?php echo $GLOBALS['base_complete_url']; ?>/css/bootstrap/bootstrap.min.css" rel="stylesheet">

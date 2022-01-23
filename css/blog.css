@@ -91,3 +91,7 @@ h2{
 .card{
     width: 100%;
 }
+
+.footer-bg {
+    background-color: #efefef;
+}
