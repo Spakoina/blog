@@ -4,9 +4,9 @@
     <div class="row">
         <div class="col-2">
         </div>
-        <div class="col6 text-center">
+        <div class="col-8 text-center">
 
-            <img class="img-fluid pb-5 pt-2" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/IMG_1405.JPG" class="card-img-top" alt="Scrivania con pc acceso e finestra sullo sfondo">
+            <img class="img-fluid pb-5 pt-2" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/post.jpg" class="card-img-top" alt="Scrivania con pc acceso e finestra sullo sfondo">
             </a>
         </div>
         <div class="col-2">
