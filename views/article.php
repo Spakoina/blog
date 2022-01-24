@@ -40,8 +40,6 @@ if (isset($tags) && count($tags) > 0) {
     </div>
 </div>
 
-
-
 <div class="row mt-5">
 
     <div class="col">
@@ -69,4 +67,46 @@ if (isset($tags) && count($tags) > 0) {
 
 </div>
 
+<!-- Sezione commenti -->
+<div class="row mt-5">
+    <div class="col">
+        <h5>Commenti</h5>
+    </div>
+</div>
+<form action="<?php echo $GLOBALS['base_complete_url']; ?>/api/comment/post-comment/" method="post" id="commentArticleForm">
+    <div class="row mb-3">
+        <div class="col-2">
+            <i class="fa-regular fa-circle-user" style="font-size: 150px;"></i>
+        </div>
+        <div class="col-10">
+            <div class="row">
+                <div class="col">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Il tuo nome</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Scrivi qui il tuo nome">
+                    </div>
+                    <div>
+                        <textarea class="form-control" id="comment" name="comment" rows="5" placeholder="Scrivi qui il tuo commento!"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col-md-8 fst-italic">
+                    This site is protected by reCAPTCHA and the Google<br/>
+                    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
+                    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                </div>
+                <div class="col-md-4 text-end">
+                    <button class="btn btn-outline-success px-5 g-recaptcha" 
+                            data-sitekey="6LfCIjIeAAAAAJTG_8M76d1hnngfc2XqHFjE5ifE" 
+                            data-callback="onSubmit" 
+                            data-action="submit">Commenta</button>
+                    
+                    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
 
+<!-- Fine sezione commenti -->

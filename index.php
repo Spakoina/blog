@@ -2,6 +2,7 @@
 
 require_once './utilities/Autoloader.php';
 require_once './utilities/date-functions.php';
+require_once './utilities/Utilities.php';
 
 function url($base_url) {
     return sprintf(
@@ -26,6 +27,7 @@ if (array_key_exists('page', $_GET)) {
 $param = explode('/', $request);
 $controller = $param[0];
 $action = count($param) > 1 ? $param[1] : null;
+$sub_action = count($param) > 2 ? $param[2] : null;
 
 //echo $request;exit;
 
@@ -57,6 +59,16 @@ switch ($controller) {
     case 'sitemap.xml' :
         $sitemapController = new SitemapController();
         $sitemapController->sitemap();
+        break;
+    case 'api' :
+        $controllerClass = studly($action . '-controller');
+        $method = studly($sub_action);
+        $methodName = $method;
+
+        if(method_exists($controllerClass, $methodName)) {
+            $controller = new $controllerClass();
+            return $controller->$methodName();
+        }
         break;
     default:
         http_response_code(404);
