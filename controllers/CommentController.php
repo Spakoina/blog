@@ -2,13 +2,16 @@
 
 class CommentController {
 
+    private CommentRepository $commRepo;
+
     function __construct() {
-        
+        $this->commRepo = new CommentRepository();
     }
 
     public function PostComment() {
 
-        $name = filter_input(INPUT_POST, 'name', FILTER_VALIDATE_EMAIL);
+        $article_url_cd = filter_input(INPUT_POST, 'article_url_cd', FILTER_SANITIZE_STRING);
+        $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
         $comment = filter_input(INPUT_POST, 'comment', FILTER_SANITIZE_STRING);
         $captcha = filter_input(INPUT_POST, 'g-recaptcha-response', FILTER_SANITIZE_STRING);
 
@@ -29,13 +32,25 @@ class CommentController {
             exit;
         }
 
-        if (isset($result) && $result != null && array_key_exists($result, "success")) {
-            if ($result['success'] = 'true') {
+        $result = json_decode($result, true);
+        if (isset($result) && $result != null && is_array($result) && array_key_exists("success", $result)) {
+            
+            if ($result['success'] == 'true') {
                 // Save post
+                $entity = new ArticleComment();
+                $entity->id_article_url_cd = $article_url_cd;
+                $entity->creation_dt = format_datetime(time());
+                $entity->user = $name;
+                $entity->comment = $comment;
+                $entity->reply_to = null;
+                $this->commRepo->insert_row($entity);
+                echo "Commento inserito correttamente";
             } else {
                 // Errore reCaptcha
                 echo "Errore nella verifica di reCaptcha";
             }
+        }else{
+            echo "Errore nei dati in input";
         }
         exit;
     }

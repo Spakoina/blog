@@ -74,6 +74,7 @@ if (isset($tags) && count($tags) > 0) {
     </div>
 </div>
 <form action="<?php echo $GLOBALS['base_complete_url']; ?>/api/comment/post-comment/" method="post" id="commentArticleForm">
+    <input type="hidden" name="article_url_cd" id="article_url_cd" value="<?= $article[0]->id_article_url_cd ?>" />
     <div class="row mb-3">
         <div class="col-2">
             <i class="fa-regular fa-circle-user" style="font-size: 150px;"></i>
@@ -93,8 +94,8 @@ if (isset($tags) && count($tags) > 0) {
             <div class="row mt-2">
                 <div class="col-md-8 fst-italic">
                     This site is protected by reCAPTCHA and the Google<br/>
-                    <a href="https://policies.google.com/privacy">Privacy Policy</a> and
-                    <a href="https://policies.google.com/terms">Terms of Service</a> apply.
+                    <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and
+                    <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
                 </div>
                 <div class="col-md-4 text-end">
                     <button class="btn btn-outline-success px-5 g-recaptcha" 
