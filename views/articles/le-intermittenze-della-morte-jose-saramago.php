@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row mb-4">
-        <div class="col-8 offset-2">
-            <img class="img-fluid" 
+        <div class="col-8 offset-2 text-center">
+            <img class="img-fluid pb-4" 
                  alt="Copertina libro Le intermittenze dela morte" 
                  title="Copertina libro cartaceo Le intermittenze dela morte di Saramago"
                  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/leintermit.jpg">
@@ -11,10 +11,11 @@
 
     <div class="row">
         <div class="col justify-text">
-            <em>“Il giorno seguente non morì nessuno”.<br>
-                «No dia seguinte ninguém morreu».</em>
-            <br>
+            <span class="text-center d-block"> <em>“Il giorno seguente non morì nessuno”.<br>
+                    «No dia seguinte ninguém morreu».</em></span>
+            <br><br>
             <h2>Trama</h2>
+            <br>
             Questa prima frase del libro di José Saramago preannuncia un nuovo inizio, 
             “un paese intero in possesso dell’elisir dell’immortalità”.
             Il sogno di una <b>vita senza morte</b> concesso alla popolazione di una nazione senza nome. 
@@ -31,6 +32,7 @@
            <br><br>
 
             <h2>Temi</h2>
+            <br>
             La storia, soffermandosi nella prima parte su quello che accade alla società ormai sbarazzatasi 
             dell’incombenza della morte, offre vari pretesti per parlare di temi ancora attualissimi. 
             <br><br>
@@ -54,6 +56,7 @@
             <br><br>
 
             <h2>Un autore da leggere ad alta voce</h2>
+            <br>
             Aprendo questo libro ci si trova di fronte a veri e propri <b>muri di testo</b>: l’autore non usa la 
             punteggiatura, tranne qualche rara virgola o punto che assumono la forma di una pausa breve nel 
             primo caso e di una pausa più lunga nel secondo, e una lettera maiuscola che permette di districarsi 
@@ -98,6 +101,7 @@
             </div>
             
             <h2>Riflessioni</h2>
+            <br>
             <b>I personaggi sono caricature</b>, rappresentazioni del potere, della Chiesa, dei filosofi, di alcuni soggetti 
             che sono in grado di indirizzare e muovere la società in una determinata direzione che senza la morte è 
             inevitabilmente quella del caos. 
