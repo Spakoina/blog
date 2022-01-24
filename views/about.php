@@ -1,12 +1,13 @@
 
 <div class="container">
-    <h1 class="text-center text-spacing-2"> About</h1>
+    
     <div class="row">
         <div class="col-2">
         </div>
         <div class="col-8 text-center">
 
-            <img class="img-fluid pb-5 pt-2" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/post.jpg" class="card-img-top" alt="Scrivania con pc acceso e finestra sullo sfondo">
+            <img class="img-fluid pb-5 pt-2" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/post.jpg" class="card-img-top" 
+                 alt="Scrivania con pc acceso e finestra sullo sfondo">
             </a>
         </div>
         <div class="col-2">
@@ -20,7 +21,7 @@
     dal Tamagotchi ai libri è stato un attimo grazie a ”Il Piccolo Principe” regalatomi da mia madre quando ero piccola. <br>
     Volendo scoprire cosa ci fosse oltre le montagne abruzzesi ho approfittato della fine del liceo per studiare in un’altra regione. 
     <br>
-    Lì mi sono dilettata all’università fra romanzi di Dostojevskij e Machado de Assis, studiando russo e portoghese sorseggiando spritz all’ombra dei campanili di Venezia.
+    Lì mi sono dilettata all’università fra romanzi di Dostojevskij e Machado de Assis, studiando lingua e letteratura russa e portoghese, sorseggiando spritz all’ombra dei campanili di Venezia.
     <br>
     Volevo un posto tutto mio per scrivere e condividere le mie impressioni sulle letture ed eccomi qua su questo blog.
     <br>___<br><br>

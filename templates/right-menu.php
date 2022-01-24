@@ -89,11 +89,11 @@
             <div class="border p-3">
                 <div class="row">
                     <div class="col-9">
-                        <h5><em>Le intermittenze della morte</em></h5> di José Saramago
+                        <h5><em>La trappola della felicità</em></h5> di Russ Harris
                     </div>
                     <div class="col-3">
                         <img class="img-fluid" 
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/saram.jpg" alt="Copertina libro">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/trap.jpg" alt="Copertina libro">
                     </div>
                 </div>
                 <div class="row">
