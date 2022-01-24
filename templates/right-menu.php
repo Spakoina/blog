@@ -20,7 +20,7 @@
 
     <div style="top: 2rem;">
         <div class="mt-5 mb-3 bg-light rounded text-center">
-            <h4 class="fst-italic mb-0 pt-2">Seguimi su Instagram </p></h4>
+            <h4 class="fst-italic mb-0 pt-2">I più popolari su Instagram </p></h4>
         </div>
 
         <!<!--Griglia Ig -->
