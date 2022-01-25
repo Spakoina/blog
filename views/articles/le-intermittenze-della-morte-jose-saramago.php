@@ -128,8 +128,13 @@
             “Qualcuno ha scritto che ciascuno di noi è nel frattempo la vita”<br>
             “Sì, nel frattempo, soltanto nel frattempo”.</em>
 
-            <br><br>
+            <br><br><br><br>
 
+            
+            <em><b>Link consigliati</b>: Vi consiglio questa bella intervista fatta a José Saramago sul sito 
+            <a href="https://circololettori.it/2016/09/14/jose-saramago-amore-possibile/" target="_blank">Circololettori.it</a> 
+            se vuoi approfondire quello che ho qui accennato sullo stile di scrittura.</em>
+            
         </div>
     </div>
 
