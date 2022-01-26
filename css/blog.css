@@ -103,3 +103,7 @@ h2{
 .grecaptcha-badge {
     visibility: hidden;
 }
+
+.comment-title {
+    font-size: 1.1rem;
+}

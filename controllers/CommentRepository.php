@@ -29,7 +29,7 @@ class CommentRepository {
     public function fetch_by_article($article_id) {
         $pdo = db_connect();
         $param['article_id'] = $article_id;
-        $stmt = $pdo->prepare('SELECT * FROM article_comment WHERE id_category_url_cd = :article_id');
+        $stmt = $pdo->prepare('SELECT * FROM article_comment WHERE id_article_url_cd = :article_id ORDER BY creation_dt DESC');
         $stmt->execute($param);
         $entities = $stmt->fetchAll(PDO::FETCH_CLASS, 'ArticleComment');
         db_disconnect($pdo);
