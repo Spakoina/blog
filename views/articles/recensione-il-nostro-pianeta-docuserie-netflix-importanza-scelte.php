@@ -75,10 +75,10 @@ Un decimo del pesce che mangiamo è composto da acciughe, per evitare che non ri
 tener conto dell’importanza delle <b>zone protette</b>. 
 A proposito dell'ambiziosità dell'immaginare un mondo pieno 
 di zone protette Edward O.WIlson ci ha visto lungo e ne ho parlato nell'articolo che si chiama <a href="https://www.papergirlblog.com/article/meta-della-terra-edward-wilson" target="_blank">Immaginare il futuro con "Metà della Terra".</a> <br>
-L’agricoltura distrugge alcuni habitat, ma l’agricoltura tradizionale fatta in Ungheria lascia campi 
+L’agricoltura distrugge alcuni habitat, ma l’agricoltura tradizionale fatta in Ungheria lascia i campi 
 con la loro enorme ricchezza naturale.<br><br>
 Insomma le risorse sanno rigenerarsi, la natura è ricca: non c'è bisogno di abusare della sua abbondanza,
-ma di capire come sfruttarla intelligentemente e in modo sostenibile, cioè in modo che ce ne sia sempre per tutti e per le generazioni future.
+ma di capire come sfruttarla intelligentemente e in modo sostenibile, cioè in modo che ce ne sia sempre per tutti e per le generazioni future.<br>
 Imparare i meccanismi che regolano la vita intorno a noi penso sia fondamentale per imparare anche a prendersene cura.
 <br><br>
 Alla fine di ogni episodio inoltre c’è l’invito 
