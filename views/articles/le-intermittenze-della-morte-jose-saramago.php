@@ -90,7 +90,7 @@
 
             <div class="col-4 offset-4">
 
-                <img class="img-fluid text-center " 
+                <img class="img-fluid text-center" 
                      alt="Uomo e disegno su muro con scheletro" 
                      src="<?php echo $GLOBALS['base_complete_url']; ?>/img/uomorosso.jpg">
                      <figcaption>  
