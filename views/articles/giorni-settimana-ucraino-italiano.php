@@ -23,7 +23,7 @@
 
                 <br><br>
                 Continua la serie di materiali con lessico italiano e ucraino dopo la tabella sull'alfabeto (che potete trovare qui -->
-                <a class="article-title-link" href="hhttps://www.papergirlblog.com/alfabeto-italiano-ucraino-tabella" target="_blank">
+                <a class="article-title-link" href="https://www.papergirlblog.com/alfabeto-italiano-ucraino-tabella" target="_blank">
                     <b>Tabella alfabeto italiano-ucraino </b></a>.<br><!-- comment -->
                 Questa volta ho pensato di crearne una con i giorni della settimana.<br>
 
@@ -31,7 +31,7 @@
 
                 Condivido tutto qui, nella speranza che questi materiali possano aiutare qualcuno e 
                 sono scaricabili gratuitamente
-                <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/ucraina.rar"> QUI </a>.
+                <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar"> QUI </a>.
                 <br><br>
 
                 Па-па!
