@@ -104,7 +104,7 @@ if (isset($GLOBALS['comments_enabled']) && $GLOBALS['comments_enabled'] == 'true
                             <input type = "text" class = "form-control" id = "name" name = "name" placeholder = "Scrivi qui il tuo nome">
                         </div>
                         <div>
-                            <textarea class = "form-control" id = "comment" name = "comment" rows = "5" placeholder = "Scrivi qui il tuo commento!"></textarea>
+                            <textarea class = "form-control" id = "comment" name = "comment" rows = "5" placeholder = "Scrivi qui il tuo commento"></textarea>
                         </div>
                     </div>
                 </div>

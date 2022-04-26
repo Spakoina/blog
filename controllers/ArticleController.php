@@ -4,7 +4,7 @@ class ArticleController {
 
     private $articleRepo;
     private $tagRepo;
-    private CommentRepository $commRepo;
+    private $commRepo;
 
     function __construct() {
         $this->articleRepo = new ArticleRepository();

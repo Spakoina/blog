@@ -25,9 +25,9 @@
         <br>
         Continua la serie di tabelle con termini di uso quotidiano in italiano con la traduzione in ucraino.<br>
         Dopo aver visto 
-        <a class="article-title-link" href="https://www.papergirlblog.com/article/alfabeto-italiano-ucraino-tabella" target="_blank">
+        <a class="article-title-link" href="<?php echo $GLOBALS['base_complete_url']; ?>/article/alfabeto-italiano-ucraino-tabella" target="_blank">
             <b>l'alfabeto italiano-ucraino - італійський алфавіт </b></a> 
-        e <a class="article-title-link" href="https://www.papergirlblog.com/article/giorni-settimana-ucraino-italiano" target="_blank">
+        e <a class="article-title-link" href="<?php echo $GLOBALS['base_complete_url']; ?>/article/giorni-settimana-ucraino-italiano" target="_blank">
             <b>i giorni della settimana - дні тижня</b></a>,
         questa volta potete scaricare due tabelle che vi aiutano a conoscere e memorizzare i mesi dell'anno. <br><br>
         Trovo molto interessanti le parole che vengono usate per l'ucraino e che ricordano caratteristiche peculiari dei mesi: 
@@ -42,7 +42,7 @@
         Le condivido sul blog, nella speranza che possano aiutarvi e sono scaricabili (gratuitamente ovviamente)
         <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/ucraina.rar"> QUI </a>.<br><br>
 
-        Da oggi c'è anche la sezione <a href="https://www.papergirlblog.com/categoria/lingue" target="_blank">Lingue</a> 
+        Da oggi c'è anche la sezione <a href="<?php echo $GLOBALS['base_complete_url']; ?>/categoria/lingue" target="_blank">Lingue</a> 
         a cui potete accedere dal Menù del blog e che raccoglie tutte le tabelle create fino ad ora per la lingua ucraina!
 
 
