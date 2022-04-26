@@ -19,7 +19,6 @@ $base_url = $pathInfo['dirname'];
 $base_complete_url = url($base_url == '/' ? '' : $base_url);
 $GLOBALS['base_complete_url'] = $base_complete_url;
 $GLOBALS['current_url'] = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-$GLOBALS['comments_enabled'] = false;
 $request = '';
 $show_banner = false;
 if (array_key_exists('page', $_GET)) {
@@ -29,6 +28,15 @@ $param = explode('/', $request);
 $controller = $param[0];
 $action = count($param) > 1 ? $param[1] : null;
 $sub_action = count($param) > 2 ? $param[2] : null;
+
+// Fetching globals
+$globVarController = new GlobalVariableRepository();
+$globVars = $globVarController->fetch_all_anabled();
+if (isset($globVars) && is_array($globVars) && sizeof($globVars) > 0) {
+    foreach ($globVars as $globVar) {
+        $GLOBALS[$globVar->global_variable_id] = $globVar->value;
+    }
+}
 
 //echo $request;exit;
 

@@ -16,7 +16,7 @@ class CommentController {
         $captcha = filter_input(INPUT_POST, 'g-recaptcha-response', FILTER_SANITIZE_STRING);
 
         $url = 'https://www.google.com/recaptcha/api/siteverify';
-        $data = array('secret' => '6LfCIjIeAAAAAC_ICV7x_dE-6YnLwm5G969Ka0xM', 'response' => $captcha);
+        $data = array('secret' => $GLOBALS['GOOGLE_API'], 'response' => $captcha);
 
         $options = array(
             'http' => array(

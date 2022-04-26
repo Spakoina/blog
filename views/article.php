@@ -71,7 +71,7 @@ if (isset($tags) && count($tags) > 0) {
 
 <!-- Sezione commenti -->
 <?php
-if (isset($GLOBALS['comments_enabled']) && $GLOBALS['comments_enabled'] == true) {
+if (isset($GLOBALS['comments_enabled']) && $GLOBALS['comments_enabled'] == 'true') {
     if (isset($comments) && is_array($comments) && sizeof($comments) > 0) {
         ?>
         <div class="row mt-5">
@@ -116,7 +116,7 @@ if (isset($GLOBALS['comments_enabled']) && $GLOBALS['comments_enabled'] == true)
                     </div>
                     <div class = "col-md-4 text-end">
                         <button class = "btn btn-outline-success px-5 g-recaptcha" id="comment-submit"
-                                data-sitekey = "6LfCIjIeAAAAAJTG_8M76d1hnngfc2XqHFjE5ifE"
+                                data-sitekey = "6LfIKqMfAAAAADf0yNUNWa_CHtEtSRFi-4RctGXs"
                                 data-callback = "onSubmit"
                                 data-action = "submit">Commenta</button>
 
