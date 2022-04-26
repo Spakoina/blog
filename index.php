@@ -19,6 +19,7 @@ $base_url = $pathInfo['dirname'];
 $base_complete_url = url($base_url == '/' ? '' : $base_url);
 $GLOBALS['base_complete_url'] = $base_complete_url;
 $GLOBALS['current_url'] = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$GLOBALS['comments_enabled'] = false;
 $request = '';
 $show_banner = false;
 if (array_key_exists('page', $_GET)) {

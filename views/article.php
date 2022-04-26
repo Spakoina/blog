@@ -71,59 +71,63 @@ if (isset($tags) && count($tags) > 0) {
 
 <!-- Sezione commenti -->
 <?php
-if (isset($comments) && is_array($comments) && sizeof($comments) > 0) {
-    ?>
-    <div class="row mt-5">
-        <div class="col">
-            <h5 class="display-6">Commenti</h5>
-        </div>
-    </div>
-    <?php
-    foreach ($comments as $comment) {
+if (isset($GLOBALS['comments_enabled']) && $GLOBALS['comments_enabled'] == true) {
+    if (isset($comments) && is_array($comments) && sizeof($comments) > 0) {
         ?>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col">
-                <span class="comment-title"><?= '<strong>' . $comment->user . '</strong> - ' . format_date(strtotime($comment->creation_dt)) ?></span><br />
-                <?= $comment->comment ?>
+                <h5 class="display-6">Commenti</h5>
             </div>
         </div>
-        <hr/>
         <?php
+        foreach ($comments as $comment) {
+            ?>
+            <div class="row">
+                <div class="col">
+                    <span class="comment-title"><?= '<strong>' . $comment->user . '</strong> - ' . format_date(strtotime($comment->creation_dt)) ?></span><br />
+                    <?= $comment->comment ?>
+                </div>
+            </div>
+            <hr/>
+            <?php
+        }
     }
+    ?>
+    <form action = "<?php echo $GLOBALS['base_complete_url']; ?>/api/comment/post-comment/" method = "post" id = "commentArticleForm">
+        <input type = "hidden" name = "article_url_cd" id = "article_url_cd" value = "<?= $article[0]->id_article_url_cd ?>" />
+        <div class = "row my-3">
+            <div class = "col-12">
+                <div class = "row">
+                    <div class = "col">
+                        <div class = "mb-3">
+                            <span class="display-6">Commenta l'articolo</span><br />
+                            <input type = "text" class = "form-control" id = "name" name = "name" placeholder = "Scrivi qui il tuo nome">
+                        </div>
+                        <div>
+                            <textarea class = "form-control" id = "comment" name = "comment" rows = "5" placeholder = "Scrivi qui il tuo commento!"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class = "row mt-2">
+                    <div class = "col-md-8 fst-italic">
+                        This site is protected by reCAPTCHA and the Google<br/>
+                        <a href = "https://policies.google.com/privacy" target = "_blank">Privacy Policy</a> and
+                        <a href = "https://policies.google.com/terms" target = "_blank">Terms of Service</a> apply.
+                    </div>
+                    <div class = "col-md-4 text-end">
+                        <button class = "btn btn-outline-success px-5 g-recaptcha" id="comment-submit"
+                                data-sitekey = "6LfCIjIeAAAAAJTG_8M76d1hnngfc2XqHFjE5ifE"
+                                data-callback = "onSubmit"
+                                data-action = "submit">Commenta</button>
+
+                        <script src = "https://www.google.com/recaptcha/api.js" async defer></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <!-- Fine sezione commenti -->
+    <?php
 }
 ?>
-<form action = "<?php echo $GLOBALS['base_complete_url']; ?>/api/comment/post-comment/" method = "post" id = "commentArticleForm">
-    <input type = "hidden" name = "article_url_cd" id = "article_url_cd" value = "<?= $article[0]->id_article_url_cd ?>" />
-    <div class = "row my-3">
-        <div class = "col-12">
-            <div class = "row">
-                <div class = "col">
-                    <div class = "mb-3">
-                        <span class="display-6">Commenta l'articolo</span><br />
-                        <input type = "text" class = "form-control" id = "name" name = "name" placeholder = "Scrivi qui il tuo nome">
-                    </div>
-                    <div>
-                        <textarea class = "form-control" id = "comment" name = "comment" rows = "5" placeholder = "Scrivi qui il tuo commento!"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div class = "row mt-2">
-                <div class = "col-md-8 fst-italic">
-                    This site is protected by reCAPTCHA and the Google<br/>
-                    <a href = "https://policies.google.com/privacy" target = "_blank">Privacy Policy</a> and
-                    <a href = "https://policies.google.com/terms" target = "_blank">Terms of Service</a> apply.
-                </div>
-                <div class = "col-md-4 text-end">
-                    <button class = "btn btn-outline-success px-5 g-recaptcha" id="comment-submit"
-                            data-sitekey = "6LfCIjIeAAAAAJTG_8M76d1hnngfc2XqHFjE5ifE"
-                            data-callback = "onSubmit"
-                            data-action = "submit">Commenta</button>
-
-                    <script src = "https://www.google.com/recaptcha/api.js" async defer></script>
-                </div>
-            </div>
-        </div>
-    </div>
-</form>
-
-<!-- Fine sezione commenti -->
