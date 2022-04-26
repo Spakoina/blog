@@ -28,8 +28,8 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CWdDMn0sF1r/" target="_blank">  
-                            <img class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ippo-ig.jpg" class="card-img-top" alt="Foto copertina su kindle">
+                        <a href="https://www.instagram.com/p/CakTEUzjryE/" target="_blank">  
+                            <img class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/fuoco-ig.jpg" class="card-img-top" alt="Foto copertina su kindle">
                         </a>
                     </div>
                 </div>
@@ -55,8 +55,8 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CTwxGXBsVeH/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/venezia.jpg" class="card-img-top" alt="Foto facciata gialla Venezia">
+                        <a href="https://www.instagram.com/p/CaHc_1LM0vK/" target="_blank">  
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/venez-ig.jpg" class="card-img-top" alt="Foto facciata gialla Venezia">
                         </a>
                     </div>
                 </div>
@@ -73,8 +73,8 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CQydX6uHZx1/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pessoa-ig.jpg" class="card-img-top" alt="Foto Instagram">
+                        <a href="https://www.instagram.com/p/CaFhBInMCle/" target="_blank">  
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/finestra-ig.JPG" class="card-img-top" alt="Foto Instagram">
                         </a>
                     </div>
                 </div>
@@ -89,11 +89,11 @@
             <div class="border p-3">
                 <div class="row">
                     <div class="col-9">
-                        <h5><em>La trappola della felicità</em></h5> di Russ Harris
+                        <h5><em>Il piccolo libro dell'Ikigai</em></h5> di Ken Mogi
                     </div>
                     <div class="col-3">
                         <img class="img-fluid" 
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/trap.jpg" alt="Copertina libro">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/ikigai.jpg" alt="Copertina libro">
                     </div>
                 </div>
                 <div class="row">
