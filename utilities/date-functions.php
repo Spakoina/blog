@@ -14,3 +14,10 @@ function format_date_notime($date) {
     $newDate = utf8_encode(date("Y-m-d", $date));
     return $newDate;
 }
+
+function format_datetime($date) {
+    $oldLocale = setlocale(LC_TIME, 'it_IT');
+    setlocale(LC_TIME, $oldLocale);
+    $newDate = date("Y-m-d h:i:s", $date);
+    return $newDate;
+}
