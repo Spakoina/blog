@@ -32,10 +32,10 @@ class CommentController {
             exit;
         }
 
-        $result = json_decode($result, true);
-        if (isset($result) && $result != null && is_array($result) && array_key_exists("success", $result)) {
-            
-            if ($result['success'] == 'true') {
+        $decodedResult = json_decode($result, true);
+        if (isset($decodedResult) && $decodedResult != null && is_array($decodedResult) && array_key_exists("success", $decodedResult)) {
+
+            if ($decodedResult['success'] == 'true') {
                 // Save post
                 $entity = new ArticleComment();
                 $entity->id_article_url_cd = $article_url_cd;
@@ -44,12 +44,15 @@ class CommentController {
                 $entity->comment = $comment;
                 $entity->reply_to = null;
                 $this->commRepo->insert_row($entity);
-                echo "Commento inserito correttamente";
+                echo "Commento inserito correttamente ";
+
+                // Sending email to Chiara
+                $this->sendEmailAndEchoResult($article_url_cd);
             } else {
                 // Errore reCaptcha
                 echo "Errore nella verifica di reCaptcha";
             }
-        }else{
+        } else {
             echo "Errore nei dati in input";
         }
         exit;
@@ -60,6 +63,19 @@ class CommentController {
         print_r($var);
         echo "</pre>";
         exit;
+    }
+
+    private function sendEmailAndEchoResult($article_url_cd) {
+        $emailSent = CommentEmailSender::buildAndSendWithLink($this->buildArticleLink($article_url_cd));
+        if ($emailSent === true) {
+            echo "<br/>Email inviata correttamente ";
+        } else {
+            echo "<br/>Errore durante l'invio dell'email ";
+        }
+    }
+
+    private function buildArticleLink($article_url_cd) {
+        return $GLOBALS['base_complete_url'] . "/article/$article_url_cd";
     }
 
 }
