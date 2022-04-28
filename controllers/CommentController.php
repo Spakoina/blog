@@ -47,7 +47,7 @@ class CommentController {
                 echo "Commento inserito correttamente ";
 
                 // Sending email to Chiara
-                $this->sendEmailAndEchoResult($article_url_cd);
+                $this->sendEmailAndEchoResult($article_url_cd, $name, $comment);
             } else {
                 // Errore reCaptcha
                 echo "Errore nella verifica di reCaptcha";
@@ -65,8 +65,9 @@ class CommentController {
         exit;
     }
 
-    private function sendEmailAndEchoResult($article_url_cd) {
-        $emailSent = CommentEmailSender::buildAndSendWithLink($this->buildArticleLink($article_url_cd));
+    private function sendEmailAndEchoResult($article_url_cd, $name, $comment) {
+        $emailSent = CommentEmailSender::buildAndSendWithLink(
+                        $this->buildArticleLink($article_url_cd), $name, $comment);
         if ($emailSent === true) {
             echo "<br/>Email inviata correttamente ";
         } else {

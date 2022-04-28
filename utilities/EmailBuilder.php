@@ -5,10 +5,12 @@ class EmailBuilder {
     private string $to;
     private string $subject;
     private string $message;
-    private string $from;
+    private string $headers;
 
     function __construct() {
-        $this->from = 'From: "PaperGirlBlog" <donotreply@papergirlblog.com>';
+        $this->headers = 'From: "PaperGirlBlog" <donotreply@papergirlblog.com>';
+        $this->headers .= "MIME-Version: 1.0\r\n";
+        $this->headers .= "Content-Type: text/html; charset=UTF-8\r\n";
     }
 
     public function setTo($to) {
@@ -31,7 +33,7 @@ class EmailBuilder {
                 $this->to,
                 $this->subject,
                 $this->message,
-                $this->from,
+                $this->headers,
         );
     }
 
