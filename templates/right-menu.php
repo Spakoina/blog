@@ -1,11 +1,12 @@
 <div style="top: 2rem;">
     <div class="p-2 mb-5 bg-light rounded text-center">
-        <img class="img-fluid rounded-circle mx-auto d-block" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/scrivere.jpg">
+        <img class="img-fluid rounded-circle mx-auto d-block" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/chiara.JPG">
         <h4 class="fst-italic pt-2">Benvenuti sul mio blog</h4>
         <p class="mb-0">Ehilà curiosa o curioso!<br><!-- comment --> 
             Sono Chiara e sono molto felice tu sia su questo blog.<br><!-- comment -->
-            Qui riporto i miei pensieri su quello che scopro e che mi fa crescere, 
-            nella speranza di dare anche agli altri un piccolo contributo al bisogno di crescita. <br><!-- comment -->
+            Qui riporto i miei pensieri su quello che leggo, carico schede di aiuto per chi studia le lingue e materiale
+            creativo per i bambini. 
+            Nella speranza di dare anche agli altri un piccolo contributo al bisogno di crescita e curiosità. <br><!-- comment -->
               </p>
         <br>
         Se ti piace quello che faccio puoi sostenermi comprandomi un caffè &#x2661

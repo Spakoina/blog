@@ -28,9 +28,9 @@ if (isset($tags) && count($tags) > 0) {
 
 <div class="row mt-4 mb-2">
     <div class="col">
-        <p class="font-size-medium"> <em>Puoi seguirmi sull'account Instagram 
+        <p class="font-size-medium"> <em>Puoi seguirmi anche sull'account Instagram 
                 <a class="article-title-link" href="https://www.instagram.com/papergirl.ninja/" target="_blank"><b>@papergirl.ninja</b></a>
-                e non perderai nessun articolo.</p>
+                e non perderai nessun articolo dedicato ai <b>libri</b>.</p>
     </div>
 </div>
 
