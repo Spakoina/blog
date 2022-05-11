@@ -1,8 +1,8 @@
 <div style="top: 2rem;">
     <div class="p-2 mb-5 bg-light rounded text-center">
         <img class="img-fluid rounded-circle mx-auto d-block" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/chiara.jpg">
-        <h4 class="fst-italic pt-2">Benvenuti sul mio blog</h4>
-        <p class="mb-0">Ehilà!<br><!-- comment --> 
+        <h4 class="fst-italic pt-2">Ehilà!</h4>
+        <p class="mb-0"> 
             Sono Chiara e sono molto felice tu sia su questo blog.<br><!-- comment -->
             Qui riporto i miei pensieri su quello che leggo, carico schede di aiuto per chi studia le lingue e materiale
             creativo per i bambini. 
@@ -90,16 +90,16 @@
             <div class="border p-3">
                 <div class="row">
                     <div class="col-9">
-                        <h5><em>Il piccolo libro dell'Ikigai</em></h5> di Ken Mogi
+                        <h5><em>Come trattare gli altri e farseli amici</em></h5> di Dale Carnegie
                     </div>
                     <div class="col-3">
                         <img class="img-fluid" 
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/ikigai.jpg" alt="Copertina libro">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/cometratta.jpg" alt="Copertina libro">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col mt-3 text-center"><a href="https://www.goodreads.com/user/show/104782651-evadida-eu-sou" target="_blank">
-                            <img class="border imghoveropacity" goodreads.com/papergirlblog
+                            <img class="border imghoveropacity"
                                  src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grlogo.jpg" alt="banner goodreads">  </a>           
                     </div>
                 </div>
