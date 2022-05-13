@@ -3,10 +3,8 @@
         <img class="img-fluid rounded-circle mx-auto d-block" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/chiara.jpg">
         <h4 class="fst-italic pt-2">Ehilà!</h4>
         <p class="mb-0"> 
-            Sono Chiara e sono molto felice tu sia su questo blog.<br><!-- comment -->
-            Qui riporto i miei pensieri su quello che leggo, carico schede di aiuto per chi studia le lingue e materiale
-            creativo per i bambini. 
-            Nella speranza di dare anche agli altri un piccolo contributo al bisogno di crescita e curiosità. <br><!-- comment -->
+            Sono molto felice tu sia su questo blog.<br><!-- comment -->
+            Appassionata da sempre di lettura e di apprendimento delle lingue, spero di aiutarti a soddisfare la curiosità di trovare nuove letture o nuovi stimoli e nell'organizzazione dello studio, soprattutto delle lingue. <br><!-- comment -->
               </p>
         <br>
         Se ti piace quello che faccio puoi sostenermi comprandomi un caffè &#x2661
