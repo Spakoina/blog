@@ -149,19 +149,21 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
                  ?>
 
             <div class="row g-5">
-                <div class="col-md-9">
+                <div class="col-md-<?= (isset($hide_right_menu) && $hide_right_menu === true ? '12' : '9') ?>">
                     <?php
                     echo $content;
                     ?>
 
                 </div>
 
-                <div class="col-md-3">
+                <?php if (!isset($hide_right_menu) || $hide_right_menu !== true) { ?>
+                    <div class="col-md-3">
 
-                    <?php
-                    include("right-menu.php");
-                    ?>
-                </div>
+                        <?php
+                        include("right-menu.php");
+                        ?>
+                    </div>
+                <?php } ?>
             </div>
 
         </main>

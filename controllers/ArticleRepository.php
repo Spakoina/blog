@@ -30,7 +30,7 @@ class ArticleRepository {
     public function fetch_by_category($category_id) {
         $pdo = db_connect();
         $param['category_id'] = $category_id;
-        $stmt = $pdo->prepare('SELECT a.* FROM article a LEFT JOIN article_category ac ON ac.id_article_url_cd = a.id_article_url_cd WHERE ac.id_category_url_cd = :category_id');
+        $stmt = $pdo->prepare('SELECT a.* FROM article a LEFT JOIN article_category ac ON ac.id_article_url_cd = a.id_article_url_cd WHERE ac.id_category_url_cd = :category_id ORDER BY date DESC');
         $stmt->execute($param);
         $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Article');
         db_disconnect($pdo);
@@ -40,7 +40,7 @@ class ArticleRepository {
     public function search_article_from_tag($tag_id) {
         $pdo = db_connect();
         $param['tag_id'] = $tag_id;
-        $stmt = $pdo->prepare('SELECT a.* FROM article_tag at LEFT JOIN article a ON at.id_article_url_cd = a.id_article_url_cd WHERE at.id_tag_cd = :tag_id');
+        $stmt = $pdo->prepare('SELECT a.* FROM article_tag at LEFT JOIN article a ON at.id_article_url_cd = a.id_article_url_cd WHERE at.id_tag_cd = :tag_id ORDER BY date DESC');
         $stmt->execute($param);
         $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Article');
         db_disconnect($pdo);
@@ -50,7 +50,7 @@ class ArticleRepository {
     public function search_article($query) {
         $pdo = db_connect();
         $param['query'] = $query;
-        $stmt = $pdo->prepare("SELECT * FROM article WHERE LOWER(title) like LOWER(CONCAT('%', :query, '%')) or LOWER(description) like LOWER(CONCAT('%', :query, '%'))");
+        $stmt = $pdo->prepare("SELECT * FROM article WHERE LOWER(title) like LOWER(CONCAT('%', :query, '%')) or LOWER(description) like LOWER(CONCAT('%', :query, '%')) ORDER BY date DESC");
         $stmt->execute($param);
         $articles = $stmt->fetchAll(PDO::FETCH_CLASS, 'Article');
         db_disconnect($pdo);

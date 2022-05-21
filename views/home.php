@@ -1,3 +1,17 @@
+<div class="row">
+    <?php
+    // Printing the categories
+    foreach (array_slice($categories, 0, 3) as $category) {
+        ?>
+        <div class="col-4">
+            <img class="img-fluid imghoveropacity hoverwithfade" 
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgcategories/<?php echo $category->category_img; ?>">
+        </div>
+        <?php
+    }
+    ?>
+</div>
+
 <?php
 $arrUtils = new ArrayUtils();
 $arrUtils->sortArticleByDate($articles);
@@ -26,7 +40,7 @@ $featured_art = $articles[0];
                     <?php echo $featured_art->description; ?>
                 </p>
                 <a class="text-spacing-2 text-uppercase article-title-link"
-                    href="<?php echo $GLOBALS['base_complete_url'] . '/article/' . $featured_art->id_article_url_cd; ?>">
+                   href="<?php echo $GLOBALS['base_complete_url'] . '/article/' . $featured_art->id_article_url_cd; ?>">
                     Continua a leggere
                 </a>
             </div>

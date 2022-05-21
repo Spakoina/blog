@@ -80,8 +80,14 @@ h2{
 }
 
 /*BRIGHTEN foto right ig*/
-.hoveropacity img:hover, .imghoveropacity:hover {
+.hoveropacity > img, .imghoveropacity {
+    opacity: 1;
+}
+.hoveropacity > img:hover, .imghoveropacity:hover {
     opacity: 0.5;
+}
+.hoveropacity img.hoverwithfade:hover, .imghoveropacity.hoverwithfade:hover {
+    transition: opacity .15s linear;
 }
 
 .tag-link {
