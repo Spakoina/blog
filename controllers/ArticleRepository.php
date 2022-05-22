@@ -62,7 +62,7 @@ class ArticleRepository {
         $param['article_cd'] = $article->id_article_url_cd;
         $param['article_date'] = $article->date;
         $stmt = $pdo->prepare(
-                "SELECT a.* FROM article a where datediff(a.date, :article_date) > 0 "
+                "SELECT a.* FROM article a WHERE datediff(a.date, :article_date) > 0 "
                 . "AND a.id_article_url_cd <> :article_cd "
                 . "AND hidden=0 "
                 . "ORDER BY datediff(a.date, :article_date) ASC "
@@ -78,7 +78,7 @@ class ArticleRepository {
         $param['article_cd'] = $article->id_article_url_cd;
         $param['article_date'] = $article->date;
         $stmt = $pdo->prepare(
-                "SELECT a.* FROM article a where datediff(:article_date, a.date) > 0 "
+                "SELECT a.* FROM article a WHERE datediff(:article_date, a.date) > 0 "
                 . "AND a.id_article_url_cd <> :article_cd "
                 . "AND hidden=0 "
                 . "ORDER BY datediff(:article_date, a.date) ASC "
