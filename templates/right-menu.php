@@ -7,7 +7,7 @@
             Appassionata da sempre di lettura e di apprendimento delle lingue, spero di aiutarti a soddisfare la curiosità di trovare nuove letture o nuovi stimoli e nell'organizzazione dello studio, soprattutto delle lingue. <br><!-- comment -->
               </p>
         <br>
-        Se ti piace quello che faccio puoi sostenermi comprandomi un caffè &#x2661
+        Se ti piace quello che faccio puoi sostenermi offrendomi un caffè &#x2661
         <div class="text-center pt-4">
             <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#376940', 'W7W27UWGO');kofiwidget2.draw();</script> 
         </div>
