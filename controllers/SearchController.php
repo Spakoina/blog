@@ -2,10 +2,12 @@
 
 class SearchController {
 
+    private $searchRepo;
     private $articleRepo;
     private $tagRepo;
 
     function __construct() {
+        $this->searchRepo = new SearchRepository();
         $this->articleRepo = new ArticleRepository();
         $this->tagRepo = new TagRepository();
     }
@@ -23,6 +25,7 @@ class SearchController {
             if (isset($query) && strlen($query) > 3) {
                 $articles = $this->articleRepo->search_article($query);
             }
+            $this->store_in_log($query);
             Render::view('search',
                     ['page_title' => 'Ricerca',
                         'ricerca_query' => $query,
@@ -31,4 +34,7 @@ class SearchController {
         }
     }
 
+    private function store_in_log($query) {
+        $this->searchRepo->insert_row($query);
+    }
 }
