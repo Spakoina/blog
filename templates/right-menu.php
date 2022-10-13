@@ -88,11 +88,11 @@
             <div class="border p-3">
                 <div class="row">
                     <div class="col-9">
-                        <h5><em>Come trattare gli altri e farseli amici</em></h5> di Dale Carnegie
+                        <h5><em>Un polpo alla gola</em></h5> di Zerocalcare
                     </div>
                     <div class="col-3">
                         <img class="img-fluid" 
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/cometratta.jpg" alt="Copertina libro">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/zero.jpg" alt="Copertina libro">
                     </div>
                 </div>
                 <div class="row">
