@@ -17,15 +17,17 @@ class SearchController {
             echo "Query di ricerca non valida: inserisci almeno 4 caratteri.";
             return;
         } else {
-            $tag_res = $articles = null;
+            $tag_res = $articles = $searched = null;
             if (isset($tag) && strlen($tag) > 0) {
                 $tag_res = $this->tagRepo->fetch_tag_fromid($tag);
                 $articles = $this->articleRepo->search_article_from_tag($tag);
+                $searched = "tag: '" . $tag . "'";
             }
             if (isset($query) && strlen($query) > 3) {
                 $articles = $this->articleRepo->search_article($query);
+                $searched = $query;
             }
-            $this->store_in_log($query);
+            $this->store_in_log($searched);
             Render::view('search',
                     ['page_title' => 'Ricerca',
                         'ricerca_query' => $query,
@@ -35,6 +37,9 @@ class SearchController {
     }
 
     private function store_in_log($query) {
-        $this->searchRepo->insert_row($query);
+        if (!isBot($_SERVER['HTTP_USER_AGENT'])) {
+            $this->searchRepo->insert_row($query);
+        }
     }
+
 }
