@@ -114,6 +114,14 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
 
     <body>
 
+        <div class="container-fluid alert-container px-5 mt-2">
+            <div class="row">
+                <div class="col">
+                    <div id="liveAlertPlaceholder"></div>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <?php
             include("nav.php");
