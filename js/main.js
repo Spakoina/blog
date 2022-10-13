@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
         [...alertTriggers].forEach(
                 (alertTrigger, index, array) => {
             alertTrigger.addEventListener('click', function () {
-                alertPopup('Grazie mille per aver scaricato il documento! Il download dovrebbe partire a breve.', 'success');
+                alertPopup('Grazie mille per aver scaricato il documento! Il download dovrebbe partire a breve.', 'primary');
             });
         }
         );

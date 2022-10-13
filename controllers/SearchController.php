@@ -37,7 +37,9 @@ class SearchController {
     }
 
     private function store_in_log($query) {
-        $this->searchRepo->insert_row($query);
+        if (!isBot($_SERVER['HTTP_USER_AGENT'])) {
+            $this->searchRepo->insert_row($query);
+        }
     }
 
 }
