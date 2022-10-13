@@ -110,7 +110,6 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
             <script async src="https://cdn.iubenda.com/cs/iubenda_cs.js"></script>
             <!-- Fine IUBENDA -->
         <?php } ?>
-        <script data-ad-client="ca-pub-5302360425765297" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </head>
 
     <body>
