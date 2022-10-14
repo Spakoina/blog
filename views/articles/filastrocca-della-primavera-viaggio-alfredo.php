@@ -31,7 +31,7 @@
         alla quale molto probabilmente seguirà una scheda didattica.<br><!-- comment -->
 
         <b>Per scaricare i due file con la filastrocca puoi cliccare sul link qui di seguito </b>--->
-        <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/filastrocca_primavera.rar"> QUI</a>.<br><br>
+        <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/filastrocca_primavera.rar" class="start-download"> QUI</a>.<br><br>
 
         <h2>Altra novità!</h2>
         Insieme a questa nuova parte del sito Web abbiamo aggiunto anche la possibilità di commentare alla fine di ogni articolo. 

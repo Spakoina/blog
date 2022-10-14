@@ -179,7 +179,7 @@ Se cercate gli strumenti che ho utilizzato potete trovare qualcosa qui:<br><br>
    <a href="https://amzn.to/3QzNKEU" target="_blank">Pinza perforatrice</a><br>
 </ul>
 <br>
-E ora, come promesso, eccola qua la <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/schedaflashcardvuota.rar"> griglia vuota che potete scaricare, stampare </a> e riempire voi a mano.
+E ora, come promesso, eccola qua la <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/schedaflashcardvuota.rar" class="start-download"> griglia vuota che potete scaricare, stampare </a> e riempire voi a mano.
 Se la create con Canva questo è un   <a href="https://www.papergirlblog.com/article/giochi-per-imparare-italiano-ucraino-flashcard-scuola" target="_blank">
             esempio con del lessico base che riguarda il mondo della scuola italiano – russo. </a> 
 

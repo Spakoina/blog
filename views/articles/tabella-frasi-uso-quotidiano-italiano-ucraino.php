@@ -56,7 +56,7 @@
         
  
         <b>Per scaricare la tabella potete cliccare sul link qui di seguito </b>--->
-        <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/frasiitaliano-ucraino.rar"> QUI</a>.<br><br>
+        <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/frasiitaliano-ucraino.rar" class="start-download"> QUI</a>.<br><br>
 
        
         Buono studio!

@@ -71,12 +71,12 @@
                 la traduzione in italiano con la pronuncia.<br><br><!-- comment -->
                 Bene, non vi resta che scaricare il file!
                 
-             <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/flashcards_itaucr_scuola.rar"> File da scaricare con flashcards</a>
+             <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/flashcards_itaucr_scuola.rar" class="start-download"> File da scaricare con flashcards</a>
 
 
 
 
-                (Bи можете завантажити файл <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/flashcards_itaucr_scuola.rar"> тут. </a>)<br><br>
+                (Bи можете завантажити файл <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/flashcards_itaucr_scuola.rar" class="start-download"> тут. </a>)<br><br>
                 
                 Buono studio! Па-па!
 

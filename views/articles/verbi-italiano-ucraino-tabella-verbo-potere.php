@@ -18,8 +18,8 @@
         <div class="col justify-text">
 
             <div>
-                <b>Bи можете завантажити файл </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar"> тут. </a><br><br>
-                <b>Potete scaricare il file </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar"> QUI. </a><br><br>
+                <b>Bи можете завантажити файл </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar" class="start-download"> тут. </a><br><br>
+                <b>Potete scaricare il file </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar" class="start-download"> QUI. </a><br><br>
 
                 <br><br>
                 Continua la serie di materiali con lessico italiano e ucraino dopo la tabella sull'alfabeto (che potete trovare qui -->
@@ -37,7 +37,7 @@
 
                 Condivido tutto qui, nella speranza che questi materiali possano aiutare qualcuno e 
                 sono scaricabili gratuitamente
-                <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/potere.rar"> QUI </a>.
+                <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/potere.rar" class="start-download"> QUI </a>.
                 <br><br>
 
                 Па-па!

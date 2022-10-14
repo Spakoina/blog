@@ -19,8 +19,8 @@
     </div>
 
     <div>
-        <b>Bи можете завантажити файл </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/mesi.rar"> тут</a>.<br><br>
-        <b>Potete scaricare il file </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar"> QUI</a>.<br><br>
+        <b>Bи можете завантажити файл </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/mesi.rar" class="start-download"> тут</a>.<br><br>
+        <b>Potete scaricare il file </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar" class="start-download"> QUI</a>.<br><br>
 
         <br>
         Continua la serie di tabelle con termini di uso quotidiano in italiano con la traduzione in ucraino.<br>

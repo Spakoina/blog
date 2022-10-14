@@ -18,8 +18,8 @@
         <div class="col justify-text">
 
             <div>
-                <b>Bи можете завантажити файл </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/vivere-ind-pres.rar"> тут. </a><br><br>
-                <b>Potete scaricare il file </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/vivere-ind-pres.rar"> QUI. </a><br><br>
+                <b>Bи можете завантажити файл </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/vivere-ind-pres.rar" class="start-download"> тут. </a><br><br>
+                <b>Potete scaricare il file </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/vivere-ind-pres.rar" class="start-download"> QUI. </a><br><br>
 
                 <br><br>
                 Continua la serie di materiali con lessico italiano e ucraino dopo la tabella sul presente indicativo del verbo "Potere" in ucraino: 

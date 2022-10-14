@@ -34,7 +34,7 @@ Sono pensate per adulti, ma vanno benissimo anche per bambini sia di madrelingua
 
 <br><!-- comment -->
 <b>Per scaricare la tabella potete cliccare sul link qui di seguito </b>--->
-        <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/vuoi_un_te.zip"> Scarica tabelle</a>.<br><br>
+        <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/vuoi_un_te.zip" class="start-download"> Scarica tabelle</a>.<br><br>
 
         <h2>Bonus: “Impariamo il lessico italiano con un video!”</h2><br>
 Qui trovate il video su YouTube che aiuta a memorizzare il lessico italiano utilizzato in situazioni in cui ci si trova a bere con qualcuno un tè.<br><br>
