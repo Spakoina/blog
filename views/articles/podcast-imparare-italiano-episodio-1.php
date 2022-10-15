@@ -1,47 +1,30 @@
 <div class="container">
-
     <div class="row mb-5">
         <div class="col justify-text">
-
-
             <div class="col-8 offset-2 text-center">
                 <img class="img-fluid" 
                      alt="Copertina podcast" 
                      title="Copertina Podcast"
                      src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/copertpodcast.jpg">
-
             </div> 
         </div>
-        <br><br><br><!-- comment -->
-        
-        
-     
+        <br><br><br>
         <div>
-            
-            
             <h2>Introduzione</h2>
-            
             <br>
-            
-            
             (<b>Clicca su Play</b> <i class="fas fa-play-circle"></i> prima di iniziare a leggere l'articolo)   
             <br><br>
-            
-            
             <div>
-                <audio controls>
+                <audio controls class="audio-player" data-audio="audio-villa-pisani.wav">
                     <source src="<?php echo $GLOBALS['base_complete_url']; ?>/sounds/audio-villa-pisani.wav" type="audio/mpeg">
                     Il tuo browser non supporta gli audio.
                 </audio>
-
             </div>
             <br>
-            Ciao!<br><!-- comment -->
+            Ciao!<br>
             Sei su Papergirlblog.com e questo è il primo di una serie di audio per <b>imparare la lingua italiana</b>.<br><br>
             In questo primo episodio parleremo di una gita a Villa Pisani. Leggi il testo mentre ascolti l’audio e scarica il file per studiare parole ed espressioni. <br><br>
             Bene, rilassati e buon ascolto…<br><br>
-
-
 
             <div class="col-4 offset-4 text-center">
                 <img class="img-fluid" 
@@ -66,7 +49,6 @@
             Parcheggiamo l’auto, facciamo il biglietto e, dopo una chiacchierata con la <b>guardia</b> (2) all’ingresso, entriamo. <br><br>
             Mi guardo intorno e sono meravigliata dalle sale piene di affreschi, <b>marmi </b>(3), mobili antichi e <b>sfarzo</b>(4). <br>
 
-
             <div class="col-4 offset-4 text-center">
                 <img class="img-fluid" 
                      alt="Sale museo" 
@@ -78,8 +60,6 @@
 
                 </figcaption> 
             </div>
-
-
 
             La famiglia Pisani, infatti, era una delle più importanti famiglie Venete, ma non è l’unica famiglia ad aver vissuto in queste stanze.<br>
             Cammino e una delle prime sale che visito è una camera da letto tutta color oro. <br>
@@ -124,24 +104,13 @@
 
             E, persa in questi pensieri, in un attimo mi trovo alla fine della visita. <b>Mi incammino</b> (10) verso l’esterno. Direzione: Parco della Villa. <br><br>
 
-
-
-
-
-
-
-
             <b>Per scaricare il file con la spiegazione di parole ed espressioni puoi cliccare sui link di seguito </b><br><br>
             <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/Villapisani-ITAENG.rar" class="start-download"> ITALIANO - INGLESE</a><br><br>
             <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/Villapisani-ITAPT.rar" class="start-download"> ITALIANO - PORTOGHESE</a><br><br>
 
-
             Buona lettura!
 
-
             <br><br>
-
-
         </div>
     </div>
 </div>

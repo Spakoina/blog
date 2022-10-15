@@ -37,7 +37,22 @@ document.addEventListener("DOMContentLoaded", function () {
             alertTrigger.addEventListener('click', function () {
                 alertPopup('Grazie mille per aver scaricato il documento! Il download dovrebbe partire a breve.', 'primary');
             });
-        }
-        );
+        });
     }
+
+    // Event captor for audio play
+    var audioPlayers = document.getElementsByClassName('audio-player');
+    [...audioPlayers].forEach(
+            (audioPlayer, index, array) => {
+        audioPlayer.addEventListener('play', function (element) {
+            try {
+                gtag('event', 'audio_play', {
+                    'audio': element.srcElement.dataset.audio
+                });
+            } catch (e) {
+                console.log("Error while registring event to google analytics");
+            }
+        });
+    });
+
 });
