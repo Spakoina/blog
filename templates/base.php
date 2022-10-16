@@ -180,7 +180,7 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
         </footer>
 
         <script src="<?php echo $GLOBALS['base_complete_url']; ?>/js/jquery-3.6.0.min.js"></script>
-        <script src="<?php echo $GLOBALS['base_complete_url']; ?>/js/main.js"></script>
+        <script src="<?php echo $GLOBALS['base_complete_url']; ?>/js/main-20221016.js"></script>
         <script src="<?php echo $GLOBALS['base_complete_url']; ?>/js/bootstrap/bootstrap.min.js"></script>
         <script src="https://kit.fontawesome.com/c28e215f17.js" crossorigin="anonymous"></script>
     </body>
