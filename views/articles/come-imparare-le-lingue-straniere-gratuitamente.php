@@ -239,7 +239,7 @@ Potete vedere qui il risultato in immagini di un verbo in russo che non ruscivo 
 
                 </div> 
                 
-           
+           Scrivimi se questi consigli ti sono stati utili.
             </div>
         </div>
 

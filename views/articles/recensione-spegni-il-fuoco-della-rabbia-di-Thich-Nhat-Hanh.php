@@ -92,9 +92,11 @@ Non sono né particolarmente entusiasta né particolarmente frustrata dalla lett
 di Thich Nhat Hanh: il libro è l’esposizione di una filosofia e si rivela a tratti un po’ stucchevole. <br><br>
 Lo sconsiglio se leggete spesso saggi scientifici o se siete allergici ai discorsi apodittici. <br>
 Io sono molto contenta di essere venuta a conoscenza di alcuni concetti e credo che alcuni passaggi possano essere 
-fonte di riflessione, nonostante le critiche che mi sono sentita di rivolgere a qualche parte del libro che riguarda 
+fonte di riflessione, nonostante le critiche che mi sono sentita di rivolgere e che riguardano
 più la forma che il contenuto in sé. 
+<br><br><!-- comment -->
 
+Scrivimi nei commenti se vuoi leggere un articolo su qualche altro libro in particolare e se questa pagina ti è stata utile!
             
             
             

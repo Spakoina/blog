@@ -33,8 +33,8 @@
                 sono scaricabili gratuitamente
                 <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/giorni.rar" class="start-download"> QUI </a>.
                 <br><br>
-
-                Па-па!
+Scrivimi se questo tipo di materiale ti piace e cos'altro ti potrebbe essere utile per lo studio delle lingue.
+                Buona lettura!
                 <br><br>
 
 

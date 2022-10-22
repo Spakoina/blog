@@ -104,7 +104,7 @@
 
             E, persa in questi pensieri, in un attimo mi trovo alla fine della visita. <b>Mi incammino</b> (10) verso l’esterno. Direzione: Parco della Villa. <br><br>
 
-            <b>Per scaricare il file con la spiegazione di parole ed espressioni puoi cliccare sui link di seguito </b><br><br>
+            <b>Per scaricare il file con la spiegazione di parole ed espressioni puoi cliccare sui link di seguito. Scrivimi se questo audio ti è stato di aiuto. </b><br><br>
             <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/Villapisani-ITAENG.rar" class="start-download"> ITALIANO - INGLESE</a><br><br>
             <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/Villapisani-ITAPT.rar" class="start-download"> ITALIANO - PORTOGHESE</a><br><br>
 

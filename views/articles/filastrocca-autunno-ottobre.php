@@ -32,7 +32,7 @@
 
         <b>Per scaricare il file con la filastrocca puoi cliccare sul link qui di seguito </b>--->
         <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/filastroccaottobre.rar" class="start-download"> QUI</a>.<br><br>
-
+        Scrivimi nello spazio riservato ai commenti se questo materiale ti è stato utile.<br>
 
         Buona lettura!
 

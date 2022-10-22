@@ -45,8 +45,8 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CUmi0V5MzVy/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/terra-ig.jpg" class="card-img-top" alt="Foto copertina libro sulla terra">
+                        <a href="https://www.instagram.com/p/CTFB-S3MV6j/" target="_blank">  
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pia-ig.jpg" class="card-img-top" alt="Foto copertina libro orto">
                         </a>
                     </div>
                 </div>
@@ -63,8 +63,8 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CUP4jXrM75S/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cielo-ig.jpg" class="card-img-top" alt="Foto cielo rosa">
+                        <a href="https://www.instagram.com/p/CZ93oC-LBCA/" target="_blank">  
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pianeta-ig.jpg" class="card-img-top" alt="Foto pianta tv">
                         </a>
                     </div>
                 </div>
@@ -72,8 +72,8 @@
             <div class="col-6">
                 <div class="card">
                     <div class="card-body p-0">
-                        <a href="https://www.instagram.com/p/CaFhBInMCle/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/finestra-ig.JPG" class="card-img-top" alt="Foto Instagram">
+                        <a href="https://www.instagram.com/p/CdYc51CseWp/" target="_blank">  
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/iki-ig.jpg" class="card-img-top" alt="Foto Libro Ikigai">
                         </a>
                     </div>
                 </div>

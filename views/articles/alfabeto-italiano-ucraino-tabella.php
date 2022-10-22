@@ -46,7 +46,7 @@
         penso possano essere d'aiuto per chi arriva in Italia e non sa una sola parola di italiano.
         Le condivido qui, nella speranza che possano aiutare qualcun'altro e sono scaricabili (gratuitamente ovviamente)
         <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/ucraina.rar" class="start-download"> QUI </a>.
-
+Scrivimi se ti è stato di aiuto. Buona lettura!
 
         <br><br>
 
