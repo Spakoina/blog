@@ -50,6 +50,15 @@ body {
     font-family: 'Luxurious Roman';
 }
 
+.featured-article-box {
+    background-color: #e5f5ff;
+    border-radius: 15px;
+}
+
+.featured-article-box:nth-child(even) {
+    background-color: #E6F6ED;
+}
+
 .jumbotron-img {
     background-repeat: no-repeat;
     background-size: cover;

@@ -138,6 +138,9 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
                          $banner_bg = '';
                          $spacing_banner = '';
                     }
+                    if (isset($banner_img_padding) && strlen($banner_img_padding) > 0) {
+                        $spacing_banner = $banner_img_padding;
+                    }
                     ?>
                     <div <?= $banner_bg ?> 
                          class="main-banner <?= $spacing_banner ?> mb-3 d-flex justify-content-center">

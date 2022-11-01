@@ -36,16 +36,34 @@ $featured_art = $articles[0];
                 </div>
         </article>
     </div>
-    <div class="col-6 centered-bg-image" style="background-image: url('<?= $GLOBALS['base_complete_url']; ?>/img/main-banner.jpg')">
+    <div class="col-6">
         <div class="row">
-            <div class="col text-center pt-5">
-                <div class="mt-5 mx-3 hp-block-title">
-                    <h4 class="fst-italic pt-2">Ehilà!</h4>
-                    <p class="mb-0"> 
-                        Sono molto felice tu sia su questo blog.<br><!-- comment -->
-                        Appassionata da sempre di lettura e di apprendimento delle lingue, spero di aiutarti a soddisfare la curiosità di trovare nuove letture o nuovi stimoli e nell'organizzazione dello studio, soprattutto delle lingue. <br><!-- comment -->
-                    </p>
-                </div>
+            <div class="col text-center">
+                <h2 class="font-size-medium text-uppercase">I più letti</h2>
+            </div>
+        </div>
+        <!-- Featured 1 -->
+        <div class="row mb-2 featured-article-box">
+            <div class="col">
+                <div class="row"><div class="col"><a class="article-title-link" href="<?= $GLOBALS['base_complete_url'] ?>"><h2 class="blog-post-title mt-2 h3">Filastrocca per bambini sull'autunno: Ottobre</h2></a></div></div>
+                <div class="row"><div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida magna id diam volutpat, non suscipit massa consequat. </div></div>
+                <div class="row"><div class="col text-end mb-2 mr-2"><a class="read-more-link" href="<?= $GLOBALS['base_complete_url'] ?>">Leggi l'articolo</a></div></div>
+            </div>
+        </div>
+        <!-- Featured 2 -->
+        <div class="row mb-2 featured-article-box">
+            <div class="col">
+                <div class="row"><div class="col"><a class="article-title-link" href="<?= $GLOBALS['base_complete_url'] ?>"><h2 class="blog-post-title mt-2 h3">Filastrocca per bambini sull'autunno: Ottobre</h2></a></div></div>
+                <div class="row"><div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida magna id diam volutpat, non suscipit massa consequat. </div></div>
+                <div class="row"><div class="col text-end mb-2 mr-2"><a class="read-more-link" href="<?= $GLOBALS['base_complete_url'] ?>">Leggi l'articolo</a></div></div>
+            </div>
+        </div>
+        <!-- Featured 3 -->
+        <div class="row mb-2 featured-article-box">
+            <div class="col">
+                <div class="row"><div class="col"><a class="article-title-link" href="<?= $GLOBALS['base_complete_url'] ?>"><h2 class="blog-post-title mt-2 h3">Filastrocca per bambini sull'autunno: Ottobre</h2></a></div></div>
+                <div class="row"><div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis gravida magna id diam volutpat, non suscipit massa consequat. </div></div>
+                <div class="row"><div class="col text-end mb-2 mr-2"><a class="read-more-link" href="<?= $GLOBALS['base_complete_url'] ?>">Leggi l'articolo</a></div></div>
             </div>
         </div>
     </div>
@@ -55,11 +73,11 @@ $featured_art = $articles[0];
     <div class="col-6">
         <div class="row">
             <?php
-            $articles = array_slice($articles, 1, 2);
+            $latest_articles = array_slice($articles, 1, 2);
 
             // Printing all the articles in HTML
             $row_n = 0;
-            foreach ($articles as $key => $value) {
+            foreach ($latest_articles as $key => $value) {
                 ?>
                 <div class="col-6">
                     <article class="blog-post row mb-3">
