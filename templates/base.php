@@ -132,9 +132,15 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
             <?php
             if (isset($banner_img) && strlen($banner_img) > 0) {
                 if (isset($banner_content) && strlen($banner_content) > 0) {
+                    $banner_bg = 'style="background-image: url(\'' . $GLOBALS['base_complete_url'] . '/img/' . $banner_img . '\')"';
+                    $spacing_banner = 'py-5';
+                    if ($banner_img === "blank") {
+                         $banner_bg = '';
+                         $spacing_banner = '';
+                    }
                     ?>
-                    <div style="background-image: url('<?php echo $GLOBALS['base_complete_url'] . '/img/' . $banner_img; ?>')" 
-                         class="main-banner py-5 mb-3 d-flex justify-content-center">
+                    <div <?= $banner_bg ?> 
+                         class="main-banner <?= $spacing_banner ?> mb-3 d-flex justify-content-center">
                         <div class="p-1 border text-center">
                             <div class="bg-white p-2 m-0 font-luxurious">
                                 <?= $banner_content; ?>
