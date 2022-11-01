@@ -81,6 +81,10 @@ h2{
     font-size: 1.3rem;
 }
 
+.font-size-small {
+    font-size: 1rem;
+}
+
 /*BRIGHTEN foto right ig*/
 .hoveropacity img:hover, .imghoveropacity:hover {
     opacity: 0.5;
