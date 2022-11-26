@@ -20,7 +20,7 @@ Possiamo addirittura osservare come funziona il nostro cervello quando impara. <
 È affascinante: quando l’ho visto sono rimasta letteralmente a bocca aperta. <br><br>
 I neuroni, che puoi vedere nel video, sono come dei mattoncini che creano legami e costruzioni per far viaggiare le "informazioni".
 Ogni volta che apprendiamo qualcosa i neuroni si espandono tramite delle “braccia” e cercano di collegarsi fra di loro per costruire dei legami, delle catene. <br><br>
-Quando pensia a qualcosa che hai imparato un segnale elettrico passa attraverso questi collegamenti che, se non sono abbastanza forti, 
+Quando pensi a qualcosa che hai imparato un segnale elettrico passa attraverso questi collegamenti che, se non sono abbastanza forti, 
 si rompono: se accade questo caso vuol dire che stai dimenticando quello che hai appreso. <br><br>
 <b>Come rafforzare allora questi legami?</b> <br><br>
 
@@ -35,8 +35,8 @@ Non serve fare uno sport agonistico, basta una bella passeggiata a passo svelto.
 Lo studio in generale, e quindi anche l’apprendimento delle lingue, richiede tanto tempo. O forse no? <br><br>
 Sempre dalle ricerche di Oakley sembra essere importante <b>in che modo si utilizza il tempo in cui ci dedichiamo allo studio</b>. 
 Molta pratica si può fare facendo esercizi, parlando con madrelingua, utilizzando app, studiando sulle flashcards come quelle 
-<a class="article-title-link" href="<?php echo $GLOBALS['base_complete_url']; ?>/article/giochi-per-imparare-italiano-ucraino-flashcard-scuola" target="_blank">
-    che puoi trovare qui sul Blog. </a><br><br>
+<a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/giochi-per-imparare-italiano-ucraino-flashcard-scuola" target="_blank">
+    che puoi trovare sul Blog. </a><br><br>
 Ma lo studio intensivo non sembra essere efficace. Una delle scoperte più interessanti è che si impara meglio se <b>spezzettiamo 
     l’apprendimento in più sessioni con giorni di riposo in mezzo</b>.<br><br>
 Ad esempio avrai più benefici dallo studio di una lingua in 7 sessioni di un’ora ciascuna, distribuite durante la settimana, rispetto a un’unica sessione di 7 ore in un giorno. <br><br>
@@ -55,8 +55,14 @@ Impari meglio quando quello che facciamo è sfidante sì, ma non troppo. <br><br
 <h2>Fare pause e dormire</h2>
 Molto di quello che studiamo non viene immagazzinato direttamente nella memoria a lungo termine, ma inizialmente 
 in un’area più temporanea chiamata "Ippocampo". Per la comprensione di come funziona la nostra memoria puoi leggere
-<a class="article-title-link" href="<?php echo $GLOBALS['base_complete_url']; ?>/article/dove-nuotano-gli-ippocampi-ostby" target="_blank">
+<a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/dove-nuotano-gli-ippocampi-ostby" target="_blank">
      Dove nuotano gli ippocampi di Hilde e Ylva Østby. </a> <br><br>
+     
+     
+   
+     
+     
+     
 Dall’ippocampo le informazioni vengono trasferite nella memoria a lungo termine, durante le pause e il sonno. 
 <b>Se non facciamo abbastanza pause o non dormiamo, l’ippocampo può risultare un po’ intasato, iniziamo a sovrascrivere 
     le informazioni</b> e dimentichiamo molte nozioni prima ancora che vengano immagazzinate nella memoria a lungo termine. <br><br>

@@ -28,11 +28,8 @@
         All'università ho studiato russo e ho sempre pensato che il russo e l'ucraino fossero molto simili e in parte lo sono.
         Ho scoperto però che esistono somiglianze con alcune parole russe, ma altre sono completamente diverse.<br> 
         Le tabelle e le spiegazioni online sono pochissime e incomplete: ho fatto fatica a barcamenarmi 
-        fra i vari materiali online
-        ed è possibile che io abbia sbagliato qualcosa, ma ho cercato di informarmi il più possibile sui suoni e sulle differenze.
-        <br>
-
-        Alla fine ho pensato agli elementi che vorrei trovare in una <b>tabella riepilogativa dell'alfabeto</b> 
+        fra i vari materiali online.
+        Ho cercato di informarmi il più possibile sui suoni e sulle differenze; ho pensato agli elementi che vorrei trovare in una <b>tabella riepilogativa dell'alfabeto</b> 
         di una nuova lingua da imparare e ho creato io una tabella.
         <br><br>
         Ho pensato di scrivere su una prima colonna l'alfabeto italiano, poi il corrispondente suono in ucraino, 
