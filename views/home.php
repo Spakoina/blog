@@ -37,11 +37,14 @@ $featured_art = $articles[0];
 <?php
 $articles = array_slice($articles, 1);
 
+
+
+
 // Printing all the articles in HTML
 foreach ($articles as $key => $value) {
     ?>
     <article class="blog-post row mb-3">
-        <div class="col-5">
+        <div class="col-3">
             <?php if (strlen($value->photo) > 0) { ?>
                 <a href="<?php echo $GLOBALS['base_complete_url'] . '/article/' . $value->id_article_url_cd; ?>">
                     <img class="img-fluid" 
@@ -49,7 +52,7 @@ foreach ($articles as $key => $value) {
                 </a>
             <?php } ?>
         </div>
-        <div class="col-7">
+        <div class="col-9">
             <a class="article-title-link"
                href="<?php echo $GLOBALS['base_complete_url'] . '/article/' . $value->id_article_url_cd; ?>">
                 <h2 class="blog-post-title"><?php echo $value->title; ?></h2>
