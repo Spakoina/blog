@@ -28,10 +28,11 @@
         <br><br>
         Come per le altre schede trovi due colonne con simboli e colori che aiutano nella comprensione: ad esempio il <font color="red">rosso per il femminile</font>, il <font color="blue">blu per il maschile</font> e il <font color="green">verde per il neutro</font>. <br>
 
-        E per riuscire a leggere correttamente l'italiano? Ti consiglio di utilizzare  
-        <a  href="https://www.papergirlblog.com/article/alfabeto-italiano-ucraino-tabella" target="_blank">
-            l'alfabeto creato appositamente</a> e studiarlo o farlo studiare. 
-
+        E per riuscire a leggere correttamente l'italiano? Ti consiglio di utilizzare 
+        
+        <a  href="<?php echo $GLOBALS['base_complete_url']; ?>article/alfabeto-italiano-ucraino-tabella" target="_blank">
+            l'alfabeto creato appositamente</a>e studiarlo o farlo studiare.
+       
         <br><br>
         <h2> Una breve spiegazione</h2>
         Non mi soffermerò molto sull'utilizzo del verbo, ma devi sapere che nella prima parte della scheda trovi il <b>tempo presente indicativo</b>. Per una persona ucraina è abbastanza difficile da memorizzare visto che nella loro lingua è uguale per tutte le persone, inoltre molto spesso il verbo essere in ucraino viene omesso, mentre in italiano questo non è possibile.<br>

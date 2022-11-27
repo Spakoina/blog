@@ -1,22 +1,9 @@
 <div style="top: 2rem;">
-    <div class="p-2 mb-5 bg-light rounded text-center">
-        <img class="img-fluid rounded-circle mx-auto d-block" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/chiara.jpg">
-        <h4 class="fst-italic pt-2">Ehilà!</h4>
-        <p class="mb-0"> 
-            Sono molto felice tu sia su questo blog.<br><!-- comment -->
-            Appassionata da sempre di lettura e di apprendimento delle lingue, spero di aiutarti a soddisfare la curiosità di trovare nuove letture o nuovi stimoli e nell'organizzazione dello studio, soprattutto delle lingue. <br><!-- comment -->
-              </p>
-        <br>
-        Se ti piace quello che faccio puoi sostenermi offrendomi un caffè &#x2661
-        <div class="text-center pt-4">
-            <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#376940', 'W7W27UWGO');kofiwidget2.draw();</script> 
-        </div>
-        <!-- Fine kofi -->
-        <br>  
-        <img class="img-fluid" 
-             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/firma-sm.jpg" alt="Firma Chiara">
-    </div>
+    
 
+    
+   
+    
     <div style="top: 2rem;">
         <div class="mt-5 mb-3 bg-light rounded text-center">
             <h4 class="fst-italic mb-0 pt-2">I più popolari su Instagram </p></h4>
@@ -80,6 +67,8 @@
             </div>
         </div>
 
+        
+        
         <!<!-- Goodreads -->
         <div style="top: 2rem;">
             <div class="mt-5 mb-3 bg-light rounded text-center">
@@ -104,9 +93,16 @@
             </div>
         </div>
 
+        
+        
+        
+        
+        
+        
+        
         <div class="row mt-3">
             <div class="col bg-light rounded text-center">
-                <h4 class="fst-italic ">Cerca articoli per tag</p></h4>
+                <h4 class="fst-italic ">Approfondisci</h4>
             </div>
         </div>
 
