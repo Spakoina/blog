@@ -18,10 +18,13 @@ if ($_SERVER['HTTP_HOST'] == 'localhost') {
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <?= isset($meta_description) && strlen($meta_description) > 0 ? "<meta name=\"description\" content=\"$meta_description\">" : ''; ?>
-        <meta name="author" content="Chiara Censorio">
-        <meta name="generator" content="Chiara Censorio">
+        <?= isset($meta_description) && strlen($meta_description) > 0 ? "<meta name=\"description\" content=\"" . htmlspecialchars($meta_description) . "\" />\n" : ''; ?>
+        <meta name="author" content="Chiara Censorio" />
+        <meta name="generator" content="Chiara Censorio" />
         <title><?= isset($page_title) && strlen($page_title) ? $page_title . ' | ' : ''; ?>PaperGirlBlog</title>
+
+        <?= isset($meta_org_title) && strlen($meta_org_title) ? '<meta property="og:title" content="' . htmlspecialchars($meta_org_title) . '" />'."\n" : '' ?>
+        <?= isset($meta_org_image_url) && strlen($meta_org_image_url) ? '<meta property="og:image" content="' . htmlspecialchars($meta_org_image_url) . '" />'."\n" : '' ?>
 
         <!--iconcina-->
         <link rel="icon" type="image/x-icon" href="<?php echo $GLOBALS['base_complete_url']; ?>/favicon.ico" />
