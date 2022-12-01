@@ -40,7 +40,7 @@
         <font color="red">La seconda</font> è quella più comune in Ucraina e si forma con la preposizione
         <font color="red">У</font>, insieme al <font color="red">sostantivo al caso Genitivo</font>  + <font color="red">є </font>.<br><br>
         
-        Per la corretta lettura dei verbi guarda <a  href="<?php echo $GLOBALS['base_complete_url']; ?>article/alfabeto-italiano-ucraino-tabella" target="_blank">
+        Per la corretta lettura dei verbi guarda <a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/alfabeto-italiano-ucraino-tabella" target="_blank">
             l'alfabeto creato appositamente</a> e ti invito a guardare anche la  <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/essere_ucraino.rar" class="start-download"> 
             tabella creata per l'altro ausiliare "Essere"</a>.
         <br><br>

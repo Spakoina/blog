@@ -30,7 +30,7 @@
 
         E per riuscire a leggere correttamente l'italiano? Ti consiglio di utilizzare 
         
-        <a  href="<?php echo $GLOBALS['base_complete_url']; ?>article/alfabeto-italiano-ucraino-tabella" target="_blank">
+        <a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/alfabeto-italiano-ucraino-tabella" target="_blank">
             l'alfabeto creato appositamente</a>e studiarlo o farlo studiare.
        
         <br><br>
