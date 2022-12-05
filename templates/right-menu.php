@@ -77,11 +77,11 @@
             <div class="border p-3">
                 <div class="row">
                     <div class="col-9">
-                        <h5><em>Un polpo alla gola</em></h5> di Zerocalcare
+                        <h5><em>La malinconia del mammut</em></h5> di Massimo Sandal
                     </div>
                     <div class="col-3">
                         <img class="img-fluid" 
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/zero.jpg" alt="Copertina libro">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/malinco.jpg" alt="Copertina libro">
                     </div>
                 </div>
                 <div class="row">

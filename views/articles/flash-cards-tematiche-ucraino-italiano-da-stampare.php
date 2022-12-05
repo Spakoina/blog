@@ -29,7 +29,8 @@
         <br><br>
         
         Ti basterà stampare questi fogli e tagliarli seguendo le linee tratteggiate, come nella foto seguente raffigurante 
-        <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/flashcards_itaucr_scuola.rar">le schede a tema "Scuola"</a>.
+        <a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/giochi-per-imparare-italiano-ucraino-flashcard-scuola" target="_blank">
+            le schede a tema "Scuola"</a>.
         <br><br>
         
         
