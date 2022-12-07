@@ -1,11 +1,54 @@
 <div style="top: 2rem;">
-    
 
+    <div style="top: 2rem;">
+        <div class=" mt-5 mb-3 rounded text-center">
+            <h2 class="fst-italic">Approfondisci</h2>
+        </div>
+
+
+        <div class="row mt-2">
+            <div class="col">
+                <?php
+                if (isset($all_tags) && count($all_tags) > 0) {
+                    foreach ($all_tags as $tag) {
+                        $search_link = $GLOBALS['base_complete_url'] . '/search?tag=' . $tag->id_tag_cd;
+                        echo '<a class="tag-link default-link mb-2" href="' . $search_link . '"><i class="' . $tag->tag_icon . '"></i> ' . $tag->tag_label . '</a>';
+                    }
+                }
+                ?>
+            </div>
+        </div>
+    </div>
+
+     <!<!-- Goodreads -->
+        <div style="top: 2rem;">
+            <div class="mt-5 mb-3  rounded text-center">
+                <h2 class="fst-italic mb-0">Cosa sto leggendo</h2>
+            </div>
+            
+            <div class="border p-3">
+                <div class="row">
+                    <div class="col-6">
+                        <em>La malinconia del mammut</em> di Massimo Sandal
+                    </div>
+                    <div class="col-6">
+                        <img class="img-fluid" 
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/malinco.jpg" alt="Copertina libro">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col mt-3 text-center"><a href="https://www.goodreads.com/user/show/104782651-evadida-eu-sou" target="_blank">
+                            <img class="border imghoveropacity img-fluid"
+                                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grlogo.jpg" alt="banner goodreads">  </a>           
+                    </div>
+                </div>
+            </div>
+        </div>
     
-   
+    
     
     <div style="top: 2rem;">
-        <div class="mt-5 mb-3 bg-light rounded text-center">
+        <div class="mt-5 mb-3 rounded text-center">
             <h2 class="fst-italic mb-0 pt-2">I più popolari su Instagram </p></h2>
         </div>
 
@@ -68,58 +111,11 @@
         </div>
 
         
-        
-        <!<!-- Goodreads -->
-        <div style="top: 2rem;">
-            <div class="mt-5 mb-3 bg-light rounded text-center">
-                <h2 class="fst-italic mb-0">Cosa sto leggendo </p></h2>
-            </div>
-            
-            <div class="border p-3">
-                <div class="row">
-                    <div class="col-6">
-                        <em>La malinconia del mammut</em> di Massimo Sandal
-                    </div>
-                    <div class="col-6">
-                        <img class="img-fluid" 
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/malinco.jpg" alt="Copertina libro">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col mt-3 text-center"><a href="https://www.goodreads.com/user/show/104782651-evadida-eu-sou" target="_blank">
-                            <img class="border imghoveropacity img-fluid"
-                                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grlogo.jpg" alt="banner goodreads">  </a>           
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        
-        
-        
-        
         
         
        
-       <div style="top: 2rem;">
-            <div class=" mt-5 mb-3 bg-light rounded text-center">
-                <h2 class="fst-italic">Approfondisci</h2>
-            </div>
       
-
-        <div class="row mt-2">
-            <div class="col">
-                <?php
-                if (isset($all_tags) && count($all_tags) > 0) {
-                    foreach ($all_tags as $tag) {
-                        $search_link = $GLOBALS['base_complete_url'] . '/search?tag=' . $tag->id_tag_cd;
-                        echo '<a class="tag-link default-link mb-2" href="' . $search_link . '"><i class="' . $tag->tag_icon . '"></i> ' . $tag->tag_label . '</a>';
-                    }
-                }
-                ?>
-            </div>
-        </div>
-    </div>
 </div>
 </div>
 

@@ -33,7 +33,7 @@ $menu[] = array(
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white">
     <div class="container-fluid border-bottom">
-        <a class="navbar-brand" href="<?php echo $GLOBALS['base_complete_url']; ?>/"><img class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/logo.png"></a>
+        <a class="navbar-brand" href="<?php echo $GLOBALS['base_complete_url']; ?>/"><img alt="Logo" class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/logo.png"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
