@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro Il giunco mormorante" 
                  title="Copertina su sfondo letterario"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/giunco.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/giunco-sm.webp">
         </div>
     </div>
 

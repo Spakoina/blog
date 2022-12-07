@@ -9,6 +9,7 @@ body {
 
 .font-luxurious {
     font-family: 'Luxurious Roman', cursive;
+    font-display: swap;
   
 }
 
@@ -99,7 +100,7 @@ h2{
 }
 
 .footer-bg {
-    background-color: #efefef;
+    background-color: white;
 }
 
 .grecaptcha-badge {

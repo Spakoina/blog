@@ -1,13 +1,14 @@
 
 <div class="container">
-    <div class="row mb-4">
-        <div class="col">
+    
+    
+        <div class="text-center">
             <img class="img-fluid" 
                  alt="Copertina libro su kindle" 
                  title="Copertina su kindle del libro"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ippo.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ippo-sm.jpg">
         </div>
-
+    <br>
     </div><!-- Foto libro -->  
 
     <div class="row">

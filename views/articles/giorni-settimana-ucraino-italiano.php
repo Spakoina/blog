@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Anteprima tabella" 
                  title="Tabella giorni settimana ucraino italiano"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/giorni.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/giorni-sm.png">
             <figcaption>  
 
                 <p>Anteprima della tabella da scaricare. </p>  
