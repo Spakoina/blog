@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro Gates" 
                  title="Copertina libro Kindle"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/bill.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/bill-sm.webp">
         </div>
 
     </div><!-- Foto libro -->  
@@ -77,7 +77,7 @@ l'ambiente in misura anche maggiore rispetto a quello che riguarda la sola plast
 
                 <img class="img-fluid text-center" 
                      alt="Foto centrale" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/tom-fisk.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/tom-fisk.webp">
                      <figcaption>  
 
           <p>Foto di una centrale americana</p>  

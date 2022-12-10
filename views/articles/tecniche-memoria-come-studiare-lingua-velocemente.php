@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Sessione di studio" 
                  title="Sessione di studio"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/studio4.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/studio4.webp">
             
         </div>
 
@@ -56,8 +56,8 @@ Impari meglio quando quello che facciamo è sfidante sì, ma non troppo. <br><br
 Molto di quello che studiamo non viene immagazzinato direttamente nella memoria a lungo termine, ma inizialmente 
 in un’area più temporanea chiamata "Ippocampo". Per la comprensione di come funziona la nostra memoria puoi leggere
 <a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/dove-nuotano-gli-ippocampi-ostby" target="_blank">
-     Dove nuotano gli ippocampi di Hilde e Ylva Østby. </a> <br><br>
-     
+     la recensione di </a>"Dove nuotano gli ippocampi" di Hilde e Ylva Østby.
+     <br><br>
      
    
      

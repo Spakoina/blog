@@ -8,7 +8,7 @@
                 <img class="img-fluid" 
                      alt="Anteprima scheda" 
                      title="Scheda verbo Avere"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/avere_ucraino.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/avere_ucraino.webp">
                 <figcaption>  
 
                     <p>Anteprima della scheda da scaricare. </p>  

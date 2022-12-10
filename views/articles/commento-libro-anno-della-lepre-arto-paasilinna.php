@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Foto copertina libro Paasilinna" 
                  title="Copertina libro L'anno della lepre"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/annolepre-sm.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/annolepre-sm.webp">
             
         </div>
 

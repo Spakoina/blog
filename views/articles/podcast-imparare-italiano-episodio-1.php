@@ -5,7 +5,7 @@
                 <img class="img-fluid" 
                      alt="Copertina podcast" 
                      title="Copertina Podcast"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/copertpodcast.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/copertpodcast.webp">
             </div> 
         </div>
         <br><br><br>
@@ -30,7 +30,7 @@
                 <img class="img-fluid" 
                      alt="Cartina Italia" 
                      title="Cartina Italia"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cartina.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cartina.webp">
                 <figcaption>  
 
                     <p>Villa Pisani si trova in Veneto, nel Nordest  </p>  
@@ -53,7 +53,7 @@
                 <img class="img-fluid" 
                      alt="Sale museo" 
                      title="Sale Museo"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ingresso.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ingresso.webp">
                 <figcaption>  
 
                     <p>All'interno del Museo  </p>  
@@ -70,7 +70,7 @@
                 <img class="img-fluid" 
                      alt="La piscina e l'esterno del Palazzo" 
                      title="Esterno"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/esterno.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/esterno.webp">
                 <figcaption>  
 
                     <p>La piscina e l'esterno del Palazzo </p>  
@@ -94,7 +94,8 @@
                 <img class="img-fluid" 
                      alt="Sala da Ballo" 
                      title="Sala da Ballo"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/sala.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/sala.webp
+                     ">
                 <figcaption>  
 
                     <p>La Sala da Ballo  </p>  

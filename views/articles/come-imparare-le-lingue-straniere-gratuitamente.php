@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Anteprima tabella" 
                  title="Anteprima tabella flashcards"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/canestudia-sm.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/canestudia-sm.webp">
             
         </div>
 
@@ -65,7 +65,7 @@ Di seguito uno screenshot di esempio delle correzioni.
                         <img class="img-fluid" 
                              alt="Esempio app Tandem" 
                              title="Esempio app Tandem"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/tandem1.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/tandem1.webp">
                         <figcaption>  
 
                             <p>Correzioni sulla chat di Tandem </p>  
@@ -83,7 +83,7 @@ Su questa app credo farò un articolo a parte perché ne sono davvero entusiasta
                         <img class="img-fluid" 
                              alt="Esempio app Tandem" 
                              title="Esempio app Tandem"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/tandem2.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/tandem2.webp">
                         <figcaption>  
 
                             <p>Alcune delle funzioni sulla chat di Tandem </p>  
@@ -108,7 +108,7 @@ domande e possibilità di correzione di testi, anche abbastanza lunghi.
                         <img class="img-fluid" 
                              alt="Esempio Polyglot" 
                              title="Esempio Polyglot"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/poly.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/poly.webp">
                         <figcaption>  
 
                             <p>Pagina del Forum Polyglot </p>  
@@ -142,7 +142,7 @@ Esiste anche l’app, ma non l’ho mai usata quindi non saprei dirvi se sia buo
                         <img class="img-fluid" 
                              alt="Esempio Reverso" 
                              title="Esempio Reverso"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/reve.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/reve.webp">
                         <figcaption>  
 
                             <p>Esempio di ricerca e risultati su Reverso Context </p>  
@@ -169,7 +169,7 @@ In alto a sinistra puoi cambiare lingua per vedere come sarebbe la traduzione in
                         <img class="img-fluid" 
                              alt="Esempio Euronews" 
                              title="Esempio Euronews"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/euronews.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/euronews.webp">
                         <figcaption>  
 
                             <p>Menù nell'ovale rosso per cambiare lingua </p>  
@@ -203,7 +203,7 @@ Qualcosa lo puoi trovare già su questo sito. Ad esempio
                         <img class="img-fluid" 
                              alt="Flashcard sul sito" 
                              title="Flashcard sul sito"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/copertinacomeflash.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/copertinacomeflash.webp">
                         <figcaption>  
 
                             <p>Alcuni dei materiali che puoi trovare qui sul sito </p>  
@@ -229,7 +229,7 @@ Potete vedere qui il risultato in immagini di un verbo in russo che non ruscivo 
                         <img class="img-fluid" 
                              alt="Esempio Google Immagini" 
                              title="Esempio Gogle immagini"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/gimmag.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/gimmag.webp">
                         <figcaption>  
 
                             <p>Alle prese con un verbo russo di cui non riuscivo a capire il significato </p>  

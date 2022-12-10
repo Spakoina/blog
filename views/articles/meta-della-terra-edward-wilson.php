@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro Wilson" 
                  title="Copertina libro edward wilson con illustrazione"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/terra.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/terra-sm.webp">
         </div>
 
     </div><!-- Foto libro -->  
@@ -75,7 +75,7 @@
 
                 <img class="img-fluid text-center" 
                      alt="Grafico sito Half-Hearth" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grafico.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grafico.webp">
                      <figcaption>  
 
           <p>Screenshot del grafico preso da Half-hearthproject.org</p>  

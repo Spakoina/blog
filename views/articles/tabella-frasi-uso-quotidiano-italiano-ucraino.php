@@ -8,7 +8,7 @@
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/quotidiano.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/quotidiano.webp">
                 <figcaption>  
 
                     <p>Anteprima della tabella da scaricare. </p>  

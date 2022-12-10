@@ -8,7 +8,7 @@
                 <img class="img-fluid" 
                      alt="Ragazzo che legge" 
                      title="La lettura"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/leggeveloce.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/leggeveloce.webp">
                  
             </div>
         </div> 

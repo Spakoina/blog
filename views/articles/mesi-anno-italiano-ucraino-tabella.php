@@ -8,7 +8,7 @@
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella mesi dell'anno"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/mesi-sm.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/mesi-sm.webp">
                 <figcaption>  
 
                     <p>Anteprima della tabella da scaricare. </p>  

@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Anteprima tabella" 
                  title="Tabella verbo Vivere ucraino italiano"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/presentevivere.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/presentevivere.webp">
             <figcaption>  
 
                 <p>Anteprima della tabella da scaricare. </p>  

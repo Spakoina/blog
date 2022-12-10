@@ -1,11 +1,11 @@
 
 <div class="container">
     <div class="row mb-4">
-        <div class="col">
+        <div class="col text-center">
             <img class="img-fluid" 
                  alt="Copertina libro" 
                  title="Copertina libro con fiori del mio giardino sullo sfondo"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/deramo.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/deramo-sm.webp">
         </div>
 
     </div><!-- Foto libro -->  

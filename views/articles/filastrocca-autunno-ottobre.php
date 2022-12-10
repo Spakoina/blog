@@ -8,7 +8,7 @@
                 <img class="img-fluid" 
                      alt="Anteprima filastrocca" 
                      title="File filastrocca"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/filastroccaottobre-sm.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/filastroccaottobre-sm.webp">
                 <figcaption>  
 
                     <p>Anteprima della filastrocca da scaricare. </p>  

@@ -5,7 +5,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro Carafa" 
                  title="Splendida illustrazione per la copertina del libro di Carafa"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/carafa.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/carafa-sm.webp">
         </div>
 
     </div><!-- Foto libro -->  

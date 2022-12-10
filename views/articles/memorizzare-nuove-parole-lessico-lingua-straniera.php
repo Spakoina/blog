@@ -29,7 +29,7 @@ Probabilmente anche Microsoft Word potrebbe prestarsi bene, ma il metodo già pr
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/copertcomeflash-sm.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/copertcomeflash-sm.webp">
                 <figcaption>  
 
                     <p>Esempio di flashcards create su Canva </p>  
@@ -63,7 +63,7 @@ Cliccate su <b>“Crea un progetto”</b> e poi in fondo al menù su <b>“Docum
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard.webp">
 </div>
         <br><br>
         
@@ -79,7 +79,7 @@ Andate su <b>“Elementi”</b> nella colonna a sinistra e da lì potete trovare
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard1.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard1.webp">
 </div>
         <br><br>
         
@@ -94,7 +94,7 @@ Se avete tanti fogli meglio usare una taglierina per carta, io uso quella della 
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard2.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard2.webp">
 </div>
 
 <br><br>
@@ -104,7 +104,7 @@ Se avete tanti fogli meglio usare una taglierina per carta, io uso quella della 
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard3.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard3.webp">
                 <figcaption>  
 
                     <p>Come inserire un bordo all'immagine</p>  
@@ -125,7 +125,7 @@ Poi copia e incolla di quei 4 e create tre righe da mettere una sotto l’altra,
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard4.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard4.webp">
                
             </div>
 
@@ -139,7 +139,7 @@ Fino ad avere un risultato come questo:
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard5.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcard5.webp">
                 <figcaption>  
 
                     <p>Come si presenterà la tabella pronta da utilizzare</p>  
@@ -161,7 +161,7 @@ di solito per le carte da gioco o per collezionare francobolli e creare un quade
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella frasi 1"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/esempioflash.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/esempioflash.webp">
                 <figcaption>  
 
                     <p>Vi basterà incollare le due facciate per avere una flashcard da utilizzare</p>  

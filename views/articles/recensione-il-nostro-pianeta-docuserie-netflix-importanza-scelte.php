@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Anteprima serie Netflix su pc" 
                  title="Anteprima serie"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/netflix2.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/netflix2.webp">
         </div>
 
     </div><!-- Foto libro -->  
@@ -38,7 +38,7 @@ che si riuniscono in un unico luogo per accoppiarsi o cercare i loro cuccioli ap
 <div class="col-8 offset-2 pt-4 pb-3">
                 <img class="img-fluid text-center pt-4 pb-3" 
                      alt="Disegno su acqua" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/delfiniparco.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/delfiniparco.webp">
                      <figcaption>  
 
           <p>Peculiare tecnica di caccia di alcuni delfini, scena tratta da Il nostro pianeta.</p>  
@@ -58,7 +58,7 @@ creano particelle che aiutano l’umidità a formare le nuvole, regolando così 
 <div class="col-8 offset-2 pt-4 pb-3">
                 <img class="img-fluid text-center" 
                      alt="Uccelli e paesaggio" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cormorani.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cormorani.webp">
                      <figcaption>  
 
           <p>Distesa di uccelli Cormorani di Guanay, scena tratta da Il nostro pianeta.</p>  
@@ -91,7 +91,7 @@ scegliere innanzitutto di conservare questa ricchezza, in modo sostenibile, e de
 <div class="col-8 offset-2">
                 <img class="img-fluid text-center pt-4 pb-3" 
                      alt="Fenicotteri rosa e sabbia" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/fenicott3.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/fenicott3.webp">
                      <figcaption>  
 
           <p>Distesa di fenicotteri, scena tratta da Il nostro pianeta.</p>  

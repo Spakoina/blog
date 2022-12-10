@@ -1,10 +1,10 @@
 <div class="container">
     <div class="row mb-4">
-        <div class="col">
+        <div class="col text-center">
             <img class="img-fluid" 
                  alt="Copertina libro cartaceo" 
                  title="Copertina libro cartaceo Grossmann"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/gross.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/gross-sm.webp">
         </div>
 
     </div><!-- Foto libro -->  

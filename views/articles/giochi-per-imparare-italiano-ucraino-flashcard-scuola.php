@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Anteprima tabella" 
                  title="Anteprima tabella flashcards"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcardscuola.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashcardsscuola.webp">
             <figcaption>  
 
                 <p>Anteprima delle flashcards da scaricare. </p>  
@@ -56,7 +56,7 @@
                         <img class="img-fluid" 
                              alt="Anteprima tabella" 
                              title="Anteprima tabella flashcards"
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cometagliare.jpg">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cometagliare.webp">
                         <figcaption>  
 
                             <p>Tagliare le cards è molto semplice </p>  

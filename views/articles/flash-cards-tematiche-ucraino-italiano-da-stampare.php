@@ -8,7 +8,7 @@
                 <img class="img-fluid" 
                      alt="Anteprima Flash cards" 
                      title="Flash cards"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashfruttaucraino.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/flashfruttaucraino.webp">
                 <figcaption>  
 
                     <p>Anteprima delle flash cards da scaricare. </p>  
@@ -38,7 +38,7 @@
                 <img class="img-fluid" 
                      alt="Anteprima Flash cards" 
                      title="Flash cards"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cometagliare.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/cometagliare.webp">
                 <br>
         </div>
         

@@ -4,7 +4,7 @@
             <img class="img-fluid pb-4" 
                  alt="Copertina libro Le intermittenze dela morte" 
                  title="Copertina libro cartaceo Le intermittenze dela morte di Saramago"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/leintermit-sm.png">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/leintermit-sm.webp">
         </div>
 
     </div><!-- Foto libro -->  
@@ -92,7 +92,7 @@
 
                 <img class="img-fluid text-center" 
                      alt="Uomo e disegno su muro con scheletro" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/uomorosso.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/uomorosso.webp">
                      <figcaption>  
 
           <p>Foto di Atypeek Dgn da Pexels</p>  

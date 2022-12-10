@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro su kindle"
                  title="Copertina su kindle del libro"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/goleman.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/goleman-sm.webp">
         </div>
     </div>
 

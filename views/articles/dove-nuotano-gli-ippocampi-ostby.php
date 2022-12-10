@@ -6,7 +6,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro su kindle" 
                  title="Copertina su kindle del libro"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ippo-sm.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/ippo-sm.webp">
         </div>
     <br>
     </div><!-- Foto libro -->  
@@ -55,7 +55,7 @@
             <div class="col">
                 <img class="img-fluid mb-4" 
                      alt="Copertina libro su kindle e lenzuola bianche sullo sfondo" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/occhiali.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/occhiali.webp">
             </div>
        
 

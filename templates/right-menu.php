@@ -33,13 +33,13 @@
                     </div>
                     <div class="col-6">
                         <img class="img-fluid" 
-                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/malinco.jpg" alt="Copertina libro">
+                             src="<?php echo $GLOBALS['base_complete_url']; ?>/img/malinco.webp" alt="Copertina libro">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col mt-3 text-center"><a href="https://www.goodreads.com/user/show/104782651-evadida-eu-sou" target="_blank">
                             <img class="border imghoveropacity img-fluid"
-                                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grlogo.jpg" alt="banner goodreads">  </a>           
+                                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/grlogo.webp" alt="banner goodreads">  </a>           
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CakTEUzjryE/" target="_blank">  
-                            <img class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/fuoco-ig.jpg" class="card-img-top" alt="Foto copertina su kindle">
+                            <img class="img-fluid" src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/fuoco-ig.webp" class="card-img-top" alt="Foto copertina su kindle">
                         </a>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CU2nD6UMQ19/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/carafa-ig.jpg" class="card-img-top" alt="Foto copertina libro cartaceo">
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/carafa-ig.webp" class="card-img-top" alt="Foto copertina libro cartaceo">
                         </a>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CTFB-S3MV6j/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pia-ig.jpg" class="card-img-top" alt="Foto copertina libro orto">
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pia-ig.webp" class="card-img-top" alt="Foto copertina libro orto">
                         </a>
                     </div>
                 </div>
@@ -85,7 +85,7 @@
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CaHc_1LM0vK/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/venez-ig.jpg" class="card-img-top" alt="Foto facciata gialla Venezia">
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/venez-ig.webp" class="card-img-top" alt="Foto facciata gialla Venezia">
                         </a>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CZ93oC-LBCA/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pianeta-ig.jpg" class="card-img-top" alt="Foto pianta tv">
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/pianeta-ig.webp" class="card-img-top" alt="Foto pianta tv">
                         </a>
                     </div>
                 </div>
@@ -103,7 +103,7 @@
                 <div class="card">
                     <div class="card-body p-0">
                         <a href="https://www.instagram.com/p/CdYc51CseWp/" target="_blank">  
-                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/iki-ig.jpg" class="card-img-top" alt="Foto Libro Ikigai">
+                            <img src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/iki-ig.webp" class="card-img-top" alt="Foto Libro Ikigai">
                         </a>
                     </div>
                 </div>

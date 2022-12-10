@@ -7,7 +7,7 @@
                 <img class="img-fluid" 
                      alt="Copertina Il piccolo libro dell'Ikigai" 
                      title="Copertina Il piccolo libro dell'Ikigai"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/iki-sm.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/iki-sm.webp">
                 <figcaption>  
 
                     <p>Copertina "Il piccolo libro dell'Ikigai" </p>  

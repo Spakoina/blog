@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Anteprima tabella" 
                  title="Tabella verbo potere ucraino italiano"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/potere.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/potere-sm.webp">
             <figcaption>  
 
                 <p>Anteprima della tabella da scaricare. </p>  
