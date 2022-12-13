@@ -15,7 +15,7 @@
     </div>
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
             
             
             

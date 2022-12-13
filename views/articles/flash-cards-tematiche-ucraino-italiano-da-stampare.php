@@ -19,7 +19,7 @@
     </div>
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
         <b>Завантажте файли </b>---> <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/flashcardfrutta_ucr.rar"> тут </a>
         
         <h2> Cosa puoi trovare nelle due schede scaricabili?</h2>

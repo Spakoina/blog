@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro La virtù dell'orto" 
                  title="Libro con orto sullo sfondo"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/piapera.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/piapera-sm.webp">
         </div>
     </div>
 

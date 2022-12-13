@@ -4,13 +4,13 @@
             <img class="img-fluid" 
                  alt="Copertina libro cartaceo" 
                  title="Libro di Thich Nhat Hanh"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/fuoco.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/fuoco-sm.webp">
         </div>
 
     </div><!-- Foto libro -->  
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
             
             
             
@@ -65,7 +65,7 @@ rende più efficace tutto il tempo vissuto nella nostra vita.
 <div class="col-8 offset-2 pt-4 pb-3">
                 <img class="img-fluid text-center pt-4 pb-3" 
                      alt="Uomo che medita all'aperto" 
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/meditaz.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/meditaz.webp">
                   
             </div>
 <br>

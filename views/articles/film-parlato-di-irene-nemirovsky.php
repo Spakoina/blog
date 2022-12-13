@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Copertina libro rosa" 
                  title="Copertina del libro fra le mie mani"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/nemir.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/nemir-sm.webp">
         </div>
     </div>
 

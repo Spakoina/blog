@@ -8,7 +8,7 @@
                 <img class="img-fluid" 
                      alt="Anteprima tabella" 
                      title="Tabella alfabeto"
-                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/alfabeto.jpg">
+                     src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/alfabeto-sm.webp">
                 <figcaption>  
 
                     <p>Anteprima della tabella da scaricare. </p>  
@@ -36,13 +36,38 @@
         le lettere ucraine</b>. Non è precisa quanto L'alfabeto Fonetico Internazionale, ma per l'inizio può bastare.
         <br><br>
 
-        Le schede vanno bene per chiunque: dai bambini in classe a chi è adulto e sta studiando una lingua. Penso che in questo momentoe possano essere d'aiuto 
+        Le schede vanno bene per chiunque: dai bambini in classe a chi è adulto e sta studiando una lingua. Penso che in questo momento possano essere d'aiuto 
         per gli ucraini che arrivano in Italia e non sanno una sola parola di italiano
         
         <a href="<?php echo $GLOBALS['base_complete_url']; ?>/materiale/ucraina.rar" class="start-download"> e le puoi scaricare da questo link</a>.
-Scrivimi un commento se questo materiale ti è stato di aiuto. Buona lettura!
+        Scrivimi un commento se questo materiale ti è stato di aiuto. Buona lettura!<br><br><!-- comment -->
+        
+        
+        <h2>Dove posso trovare altro materiale?</h2>
 
-        <br><br>
+        Ci sono tante risorse scaricabili sulla lingua ucraina qui sul blog. Clicca su uno di questi link!<br><br><!-- comment -->
+
+        <ul><li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/verbo-essere-scheda-spiegazione-ucraino-italiano">
+                    Verbo "Essere" italiano - ucraino</a></li>
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/verbo-avere-scheda-spiegazione-ucraino-italiano">
+                    Verbo "Avere" italiano - ucraino</a></li>
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/flash-cards-tematiche-ucraino-italiano-da-stampare">
+                    Flashcards tematiche da stampare</a></li>
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/podcast-imparare-italiano-episodio-1">
+                    Un Podcast per imparare l'italiano</a></li>
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/verbi-italiano-ucraino-vivere-presente-indicativo">
+                    Verbo "Vivere" italiano - ucraino</a></li>
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/tabella-frasi-uso-quotidiano-italiano-ucraino">
+                    Frasi di uso quotidiano italiano - ucraino</a></li>
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/mesi-anno-italiano-ucraino-tabella">
+                    Mesi dell'anno italiano - ucraino</a></li>
+
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/verbi-italiano-ucraino-tabella-verbo-potere">
+                    Verbo "Potere" italiano - ucraino</a></li>
+            <li><a  href="<?php echo $GLOBALS['base_complete_url']; ?>/article/giorni-settimana-ucraino-italiano">
+                    Giorni della settimana italiano - ucraino</a></li>
+        </ul>
+
 
 
     </div>

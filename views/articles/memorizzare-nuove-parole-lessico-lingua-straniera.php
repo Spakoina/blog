@@ -2,7 +2,7 @@
 
     
 
-    <div class="justify-text">
+    <div class="text-start">
 
  
         <i >Questo post contiene link affiliati.</i>

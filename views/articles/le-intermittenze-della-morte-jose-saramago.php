@@ -10,7 +10,7 @@
     </div><!-- Foto libro -->  
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
             <span class="text-center d-block"> <em>“Il giorno seguente non morì nessuno”.<br>
                     «No dia seguinte ninguém morreu».</em></span>
             <br><br>

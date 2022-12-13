@@ -12,7 +12,7 @@
 
 
 
-        <div class="col mt-4 justify-text ">
+        <div class="col mt-4 text-start">
 
 
             Mi sarebbe piaciuto tantissimo aver avuto da adolescente sotto mano un testo 

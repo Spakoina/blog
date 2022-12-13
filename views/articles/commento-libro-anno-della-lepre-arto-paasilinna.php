@@ -11,7 +11,7 @@
     </div> 
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
 
             <div>
                 Ecco un articolo con un breve commento su un libro che ho trovato di facile lettura e piuttosto leggero. <br><br><!-- comment -->

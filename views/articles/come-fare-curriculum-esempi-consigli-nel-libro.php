@@ -11,7 +11,7 @@
     </div> 
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
 
             <div>
                 “Lavorare alla grande” è un libro che tratta di <b>orientamento al mondo professionale</b>.<br>

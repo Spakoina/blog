@@ -11,9 +11,10 @@
     </div> 
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
 
-            <div>
+            <div>Studiare il più velocemente possibile.<br>
+                Sì, ma come?<br><br>
                 Grazie ai progressi nelle neuroscienze adesso sappiamo meglio cosa accade nel cervello quando impariamo qualcosa e, di conseguenza, 
                 <b> possiamo migliorare il nostro modo di studiare per renderlo più efficace</b>.<br><br>
 Possiamo addirittura osservare come funziona il nostro cervello quando impara. <a href="https://www.youtube.com/watch?v=SczOfOXY17U" target="_blank">C’è un video online che mostra proprio questo!</a>

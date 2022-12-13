@@ -10,7 +10,7 @@
     </div><!-- Foto libro -->  
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
             <em>"È ora di allargare la discussione sul futuro umano e di collegarlo a 
                 tutte le altre forme di vita"</em>.
             <br><br>

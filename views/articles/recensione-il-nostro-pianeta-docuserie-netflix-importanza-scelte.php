@@ -10,7 +10,7 @@
     </div><!-- Foto libro -->  
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
             Ammirare la ricchezza della natura che ci circonda è qualcosa che definirei quasi terapeutico e visitare parchi, fare dei giri in montagna o in zone protette è qualcosa che dovrebbe far parte 
             più spesso della nostra routine. <br><br>
             Alcuni luoghi però sono difficili da raggiungere se non del tutto inospitali per l'uomo

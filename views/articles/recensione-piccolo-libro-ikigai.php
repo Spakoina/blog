@@ -17,7 +17,7 @@
         </div> 
     </div>
 
-    <div class="justify-text">
+    <div class="text-start">
 
 
         <h2>Qual è la vostra ragione di vita? </h2>

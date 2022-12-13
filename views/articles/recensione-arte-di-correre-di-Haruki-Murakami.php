@@ -4,7 +4,7 @@
             <img class="img-fluid" 
                  alt="Foto copertina libro Murakami" 
                  title="Copertina libro L'arte di correre"
-                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/murakami-sm.jpg">
+                 src="<?php echo $GLOBALS['base_complete_url']; ?>/img/imgarticles/murakami-sm.webp">
             
         </div>
 

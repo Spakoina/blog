@@ -2,7 +2,7 @@
 
     
 
-    <div class="justify-text">
+    <div class="text-start">
 
  
         Impariamo nuove parole in un modo funzionale ed efficace seguendo questa pratica guida!<br> <br>

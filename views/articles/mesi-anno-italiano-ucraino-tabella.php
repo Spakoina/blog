@@ -1,7 +1,7 @@
 <div class="container">
 
     <div class="row mb-5">
-        <div class="col justify-text">
+        <div class="col text-start">
             <h2>I mesi dell'anno illustrati</h2><br>
 
             <div class="col-8 offset-2 text-center">

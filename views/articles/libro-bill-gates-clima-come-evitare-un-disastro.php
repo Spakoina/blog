@@ -10,7 +10,7 @@
     </div><!-- Foto libro -->  
 
     <div class="row">
-        <div class="col justify-text">
+        <div class="col text-start">
             <h2>Un libro sulla questione climatica</h2><br>
 Ma Chiara, tu che stai sempre a leggere saggi, un libro per fare il punto della questione climatica non pesante?
 <br><br>
